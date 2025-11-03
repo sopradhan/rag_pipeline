@@ -1,0 +1,48 @@
+# Web framework & server
+fastapi
+uvicorn
+
+# Data & ML
+pandas
+numpy
+scikit-learn
+
+# Environment & HTTP
+python-dotenv
+httpx
+
+# LLM Integration (LangChain + OpenAI)
+langchain
+#langchain-openai
+
+# Optional: Kafka message bus (enable if you switch from InMemoryBus)
+kafka-python
+
+# Optional: Computer vision (only if you later implement Detectron2)
+torch
+torchvision
+# detectron2==0.6  # install from source or matching torch version
+streamlit
+pandas
+numpy
+scikit-learn
+langchain
+langchain-community
+huggingface_hub
+httpx
+altair
+streamlit-aggrid
+streamlit-chat
+langchain_huggingface
+torch 
+transformers
+httpx
+accelerate
+
+# CrewAI deployment & tools
+crewai
+crewai-tools
+qdrant-client
+openai
+python-dotenv
+PyYAML

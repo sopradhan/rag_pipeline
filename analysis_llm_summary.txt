@@ -1,0 +1,4 @@
+LLM Unavailable — returning deterministic summary:
+Top observations and action items:
+- PCA explained variance: [0.42360001 0.35985481 0.21654518]
+Suggested next steps: impute missing values, standardize features, evaluate models (RF/XGBoost), and consider cluster-based features.

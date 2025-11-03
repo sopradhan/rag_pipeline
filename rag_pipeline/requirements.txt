@@ -1,0 +1,55 @@
+# Core dependencies
+langchain>=0.0.300
+pydantic>=2.4
+python-dotenv>=1.0
+sqlalchemy>=2.0
+pandas>=2.1
+numpy>=1.24
+
+# Document processing
+python-magic>=0.4  # File type detection
+python-docx>=0.8   # Word docs
+PyPDF2>=3.0        # PDF processing
+beautifulsoup4>=4.12  # HTML parsing
+markdown>=3.4      # Markdown processing
+PyYAML>=6.0        # YAML processing
+openpyxl>=3.1      # Excel files
+lxml>=4.9          # XML processing
+
+# Vector store & embeddings
+chromadb>=0.4      # Vector store (lightweight)
+sentence-transformers>=2.2  # Text embeddings
+torch>=2.0         # For embedding models
+transformers>=4.33  # Hugging Face models
+
+# Classification & ML
+scikit-learn>=1.3   # ML utilities
+umap-learn>=0.5    # Dimensionality reduction
+hdbscan>=0.8       # Clustering
+
+# API & Web
+fastapi>=0.103     # API framework
+uvicorn>=0.23      # ASGI server
+streamlit>=1.26    # Dashboard UI
+requests>=2.31     # HTTP client
+
+# Visualization
+plotly>=5.16       # Interactive plots
+matplotlib>=3.7    # Static plots
+
+# Security & validation
+python-jose>=3.3   # JWT tokens
+passlib>=1.7       # Password hashing
+pydantic[email]    # Email validation
+regex>=2023.8      # Advanced regex
+
+# Testing
+pytest>=7.4
+pytest-asyncio>=0.21
+httpx>=0.24        # Async HTTP client
+
+# Development
+black>=23.7        # Code formatting
+isort>=5.12        # Import sorting
+mypy>=1.5          # Type checking
+pylint>=2.17       # Linting

@@ -1,0 +1,6 @@
+n_samples: 1000
+imputer: median
+scaler: robust
+max_clusters: 10
+cluster_algo: kmeans
+# schema: 'sample_schema.yaml'  # optionally point to a yaml schema file here

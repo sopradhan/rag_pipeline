@@ -1,0 +1,16 @@
+LLM Unavailable — returning deterministic summary:
+Top observations and action items:
+- You are a senior data scientist. Given the diagnostics below and the cluster score sweep, do the following succinctly:
+- 1) Interpret the cluster scores and say which k appears best and why.
+- 2) For the final clustering (provided per-cluster diagnostics), identify which cluster(s) are higher-quality (stable/cohesive) and why.
+- 3) Provide 3 concise next steps to operationalize the clusters (monitoring, thresholds, feature checks).
+- Return plain text with short bullet sections: SUMMARY (1-2 lines), INTERPRETATION, BEST CLUSTERS, NEXT STEPS.
+- Cluster diagnostics:
+- Cluster 0: size=21, silhouette=0.294, avg_dist=0.718
+- Cluster 1: size=23, silhouette=0.314, avg_dist=0.581
+- Cluster 2: size=24, silhouette=0.209, avg_dist=0.779
+- Cluster 3: size=20, silhouette=0.308, avg_dist=0.595
+- Cluster 4: size=16, silhouette=0.232, avg_dist=0.657
+- Cluster 5: size=16, silhouette=0.290, avg_dist=0.675
+- Cluster score sweep (top rows):
+Suggested next steps: impute missing values, standardize features, evaluate models (RF/XGBoost), and consider cluster-based features.

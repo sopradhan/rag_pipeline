@@ -1,0 +1,112 @@
+{
+  "rules": [
+    {
+      "pattern": "\\b(api|rest|graphql|endpoint|swagger|openapi)\\b",
+      "domain": "technical",
+      "category": "api",
+      "subcategories": ["web_api", "api_design"],
+      "tags": ["api", "integration", "backend"],
+      "is_regex": true,
+      "priority": 3
+    },
+    {
+      "pattern": "\\b(security|auth[en].*|oauth|jwt|encryption|ssl|tls)\\b",
+      "domain": "technical",
+      "category": "security",
+      "subcategories": ["authentication", "encryption"],
+      "tags": ["security", "auth", "protection"],
+      "is_regex": true,
+      "priority": 3
+    },
+    {
+      "pattern": "\\b(docker|kubernetes|k8s|container|pod|deployment|helm)\\b",
+      "domain": "technical",
+      "category": "infrastructure",
+      "subcategories": ["containerization", "orchestration"],
+      "tags": ["devops", "containers", "cloud"],
+      "is_regex": true,
+      "priority": 2
+    },
+    {
+      "pattern": "\\b(sales|revenue|customer|pipeline|lead|conversion)\\b",
+      "domain": "business",
+      "category": "sales",
+      "subcategories": ["revenue", "customer_acquisition"],
+      "tags": ["sales", "revenue", "customers"],
+      "is_regex": true,
+      "priority": 2
+    },
+    {
+      "pattern": "\\b(marketing|campaign|seo|advertising|brand|social\\s*media)\\b",
+      "domain": "business",
+      "category": "marketing",
+      "subcategories": ["digital_marketing", "branding"],
+      "tags": ["marketing", "advertising", "promotion"],
+      "is_regex": true,
+      "priority": 2
+    },
+    {
+      "pattern": "\\b(gdpr|compliance|legal|privacy|terms\\s*of\\s*service|policy)\\b",
+      "domain": "legal",
+      "category": "compliance",
+      "subcategories": ["privacy", "data_protection"],
+      "tags": ["legal", "compliance", "privacy"],
+      "is_regex": true,
+      "priority": 3
+    },
+    {
+      "pattern": "\\b(machine\\s*learning|ml|ai|neural|model|training|inference)\\b",
+      "domain": "technical",
+      "category": "data",
+      "subcategories": ["machine_learning", "ai"],
+      "tags": ["ml", "ai", "data_science"],
+      "is_regex": true,
+      "priority": 2
+    },
+    {
+      "pattern": "\\b(database|sql|nosql|mongodb|postgresql|redis|cache)\\b",
+      "domain": "technical",
+      "category": "data",
+      "subcategories": ["databases", "data_storage"],
+      "tags": ["database", "storage", "data"],
+      "is_regex": true,
+      "priority": 2
+    },
+    {
+      "pattern": "\\b(test|unit\\s*test|integration\\s*test|qa|quality)\\b",
+      "domain": "technical",
+      "category": "testing",
+      "subcategories": ["unit_testing", "qa"],
+      "tags": ["testing", "quality", "qa"],
+      "is_regex": true,
+      "priority": 1
+    },
+    {
+      "pattern": "\\b(hr|hiring|recruitment|employee|talent|onboarding)\\b",
+      "domain": "business",
+      "category": "hr",
+      "subcategories": ["recruitment", "employee_management"],
+      "tags": ["hr", "hiring", "personnel"],
+      "is_regex": true,
+      "priority": 2
+    },
+    {
+      "pattern": "\\b(finance|budget|cost|expense|investment|roi)\\b",
+      "domain": "business",
+      "category": "finance",
+      "subcategories": ["budgeting", "financial_planning"],
+      "tags": ["finance", "budget", "costs"],
+      "is_regex": true,
+      "priority": 2
+    },
+    {
+      "pattern": "\\b(strategy|roadmap|vision|mission|goal|objective)\\b",
+      "domain": "business",
+      "category": "strategy",
+      "subcategories": ["planning", "objectives"],
+      "tags": ["strategy", "planning", "goals"],
+      "is_regex": true,
+      "priority": 1
+    }
+  ]
+}

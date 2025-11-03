@@ -1,0 +1,31 @@
+n: 200
+fields:
+  timestamp:
+    type: date
+    start: '2024-01-01'
+    freq: 'H'
+
+  substation_id:
+    type: categorical
+    # Alphanumeric substation identifiers (SS001..SS010)
+    categories: ['SS001', 'SS002', 'SS003', 'SS004', 'SS005', 'SS006', 'SS007', 'SS008', 'SS009', 'SS010']
+
+  temperature:
+    type: normal
+    mean: 25.0
+    std: 5.0
+
+  voltage:
+    type: normal
+    mean: 230.0
+    std: 5.0
+
+  current:
+    type: normal
+    mean: 10.0
+    std: 3.0
+
+  status:
+    type: categorical
+    categories: ['OK', 'DEGRADED', 'FAULT']
+    weights: [0.85, 0.10, 0.05]
