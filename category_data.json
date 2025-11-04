@@ -1,0 +1,2709 @@
+{
+  "metadata": {
+    "generated_at": "2025-11-04T01:16:09.852005",
+    "record_count": 100,
+    "version": "1.0"
+  },
+  "records": [
+    {
+      "id": "5f0978b8-864d-44a8-b16e-d930d200bb08",
+      "timestamp": "2025-10-28T23:45:20.852968",
+      "domain": {
+        "main_category": "Data",
+        "sub_category": "Data Lakes",
+        "confidence_score": 0.95
+      },
+      "line_of_business": {
+        "main_category": "Manufacturing",
+        "sub_category": "Production",
+        "confidence_score": 0.94
+      },
+      "technical": {
+        "main_category": "Data",
+        "sub_category": "Analytics",
+        "confidence_score": 0.84
+      },
+      "metadata": {
+        "severity": "Low",
+        "priority": "P4",
+        "status": "Under Review",
+        "assigned_team": "Team-3",
+        "resolution_time": 28
+      },
+      "description": "Critical alert from Data monitoring system impacting Manufacturing services. Requires immediate Data team intervention."
+    },
+    {
+      "id": "0375fd8a-b394-4d27-b454-4b4c8e5dea05",
+      "timestamp": "2025-10-18T04:59:53.853956",
+      "domain": {
+        "main_category": "Applications",
+        "sub_category": "Microservices",
+        "confidence_score": 0.91
+      },
+      "line_of_business": {
+        "main_category": "Healthcare",
+        "sub_category": "Patient Care",
+        "confidence_score": 0.71
+      },
+      "technical": {
+        "main_category": "Security",
+        "sub_category": "Compliance",
+        "confidence_score": 0.8
+      },
+      "metadata": {
+        "severity": "Medium",
+        "priority": "P2",
+        "status": "Under Review",
+        "assigned_team": "Team-3",
+        "resolution_time": 26
+      },
+      "description": "Issue reported in Applications system affecting Healthcare operations. Technical investigation reveals Security-related root cause."
+    },
+    {
+      "id": "7f7af5a5-8b4f-48cb-b8ec-1f7edf2fbe19",
+      "timestamp": "2025-10-25T20:36:37.853994",
+      "domain": {
+        "main_category": "Applications",
+        "sub_category": "Microservices",
+        "confidence_score": 0.77
+      },
+      "line_of_business": {
+        "main_category": "Finance",
+        "sub_category": "Treasury",
+        "confidence_score": 0.94
+      },
+      "technical": {
+        "main_category": "Security",
+        "sub_category": "Auditing",
+        "confidence_score": 0.81
+      },
+      "metadata": {
+        "severity": "Medium",
+        "priority": "P2",
+        "status": "Open",
+        "assigned_team": "Team-1",
+        "resolution_time": null
+      },
+      "description": "Finance team reported degraded performance in Applications components. Security team investigating the underlying cause."
+    },
+    {
+      "id": "d9df03ac-3799-4947-b6b4-ad40bdc979df",
+      "timestamp": "2025-10-17T04:11:12.854016",
+      "domain": {
+        "main_category": "Data",
+        "sub_category": "Analytics",
+        "confidence_score": 0.93
+      },
+      "line_of_business": {
+        "main_category": "Technology",
+        "sub_category": "Support",
+        "confidence_score": 0.94
+      },
+      "technical": {
+        "main_category": "Backend",
+        "sub_category": "Caching",
+        "confidence_score": 0.92
+      },
+      "metadata": {
+        "severity": "Medium",
+        "priority": "P3",
+        "status": "Resolved",
+        "assigned_team": "Team-4",
+        "resolution_time": 17
+      },
+      "description": "Technology team reported degraded performance in Data components. Backend team investigating the underlying cause."
+    },
+    {
+      "id": "1ca44f44-874b-41fa-b21e-6d59d67507d8",
+      "timestamp": "2025-10-14T05:02:29.854035",
+      "domain": {
+        "main_category": "Applications",
+        "sub_category": "Web Apps",
+        "confidence_score": 0.7
+      },
+      "line_of_business": {
+        "main_category": "Retail",
+        "sub_category": "Customer Service",
+        "confidence_score": 0.75
+      },
+      "technical": {
+        "main_category": "Backend",
+        "sub_category": "APIs",
+        "confidence_score": 0.81
+      },
+      "metadata": {
+        "severity": "Critical",
+        "priority": "P1",
+        "status": "Closed",
+        "assigned_team": "Team-3",
+        "resolution_time": 66
+      },
+      "description": "Security audit identified potential risks in Applications systems used by Retail. Backend team implementing recommended fixes."
+    },
+    {
+      "id": "54e55ff2-ac2f-4f72-9afe-35d1a31bc4ae",
+      "timestamp": "2025-10-05T02:31:08.854066",
+      "domain": {
+        "main_category": "Security",
+        "sub_category": "Network Security",
+        "confidence_score": 0.94
+      },
+      "line_of_business": {
+        "main_category": "Retail",
+        "sub_category": "E-commerce",
+        "confidence_score": 0.99
+      },
+      "technical": {
+        "main_category": "Frontend",
+        "sub_category": "UI/UX",
+        "confidence_score": 0.9
+      },
+      "metadata": {
+        "severity": "High",
+        "priority": "P2",
+        "status": "In Progress",
+        "assigned_team": "Team-2",
+        "resolution_time": 5
+      },
+      "description": "Critical alert from Security monitoring system impacting Retail services. Requires immediate Frontend team intervention."
+    },
+    {
+      "id": "bbea757d-94f6-4ec4-b92c-97ab9a62b85e",
+      "timestamp": "2025-10-05T10:00:37.854093",
+      "domain": {
+        "main_category": "Security",
+        "sub_category": "Data Privacy",
+        "confidence_score": 0.83
+      },
+      "line_of_business": {
+        "main_category": "Finance",
+        "sub_category": "Banking",
+        "confidence_score": 0.81
+      },
+      "technical": {
+        "main_category": "Infrastructure",
+        "sub_category": "AWS",
+        "confidence_score": 0.8
+      },
+      "metadata": {
+        "severity": "Low",
+        "priority": "P3",
+        "status": "Resolved",
+        "assigned_team": "Team-4",
+        "resolution_time": null
+      },
+      "description": "Issue reported in Security system affecting Finance operations. Technical investigation reveals Infrastructure-related root cause."
+    },
+    {
+      "id": "6aa2dc28-9046-4019-8ad8-0084967bdfdb",
+      "timestamp": "2025-10-12T19:33:16.854125",
+      "domain": {
+        "main_category": "Applications",
+        "sub_category": "APIs",
+        "confidence_score": 0.72
+      },
+      "line_of_business": {
+        "main_category": "Healthcare",
+        "sub_category": "Lab Services",
+        "confidence_score": 0.86
+      },
+      "technical": {
+        "main_category": "Backend",
+        "sub_category": "APIs",
+        "confidence_score": 0.93
+      },
+      "metadata": {
+        "severity": "Medium",
+        "priority": "P2",
+        "status": "Closed",
+        "assigned_team": "Team-4",
+        "resolution_time": 25
+      },
+      "description": "Security audit identified potential risks in Applications systems used by Healthcare. Backend team implementing recommended fixes."
+    },
+    {
+      "id": "dc3218de-adff-4687-952b-b921c84bb1b0",
+      "timestamp": "2025-10-20T01:02:05.854145",
+      "domain": {
+        "main_category": "Applications",
+        "sub_category": "Web Apps",
+        "confidence_score": 0.74
+      },
+      "line_of_business": {
+        "main_category": "Manufacturing",
+        "sub_category": "Production",
+        "confidence_score": 0.88
+      },
+      "technical": {
+        "main_category": "Frontend",
+        "sub_category": "React",
+        "confidence_score": 0.8
+      },
+      "metadata": {
+        "severity": "Critical",
+        "priority": "P3",
+        "status": "Resolved",
+        "assigned_team": "Team-3",
+        "resolution_time": 45
+      },
+      "description": "Scheduled maintenance required for Applications infrastructure supporting Manufacturing applications. Frontend team to coordinate the effort."
+    },
+    {
+      "id": "a9d07eee-8422-4c4c-a603-851aabec5f43",
+      "timestamp": "2025-10-24T08:36:13.854163",
+      "domain": {
+        "main_category": "Data",
+        "sub_category": "Analytics",
+        "confidence_score": 0.79
+      },
+      "line_of_business": {
+        "main_category": "Healthcare",
+        "sub_category": "Patient Care",
+        "confidence_score": 0.82
+      },
+      "technical": {
+        "main_category": "Security",
+        "sub_category": "Network Security",
+        "confidence_score": 0.95
+      },
+      "metadata": {
+        "severity": "High",
+        "priority": "P2",
+        "status": "Open",
+        "assigned_team": "Team-4",
+        "resolution_time": 3
+      },
+      "description": "Critical alert from Data monitoring system impacting Healthcare services. Requires immediate Security team intervention."
+    },
+    {
+      "id": "535ea0ec-5e71-40ff-aa3c-2c7c0e419223",
+      "timestamp": "2025-10-05T14:16:48.854181",
+      "domain": {
+        "main_category": "Applications",
+        "sub_category": "Web Apps",
+        "confidence_score": 0.83
+      },
+      "line_of_business": {
+        "main_category": "Manufacturing",
+        "sub_category": "Logistics",
+        "confidence_score": 0.8
+      },
+      "technical": {
+        "main_category": "Security",
+        "sub_category": "Compliance",
+        "confidence_score": 0.96
+      },
+      "metadata": {
+        "severity": "High",
+        "priority": "P4",
+        "status": "Open",
+        "assigned_team": "Team-2",
+        "resolution_time": null
+      },
+      "description": "Manufacturing team reported degraded performance in Applications components. Security team investigating the underlying cause."
+    },
+    {
+      "id": "4c960907-f7a9-4802-a8cf-9b4d5e24148a",
+      "timestamp": "2025-10-07T14:38:57.854207",
+      "domain": {
+        "main_category": "Security",
+        "sub_category": "Data Privacy",
+        "confidence_score": 0.79
+      },
+      "line_of_business": {
+        "main_category": "Healthcare",
+        "sub_category": "Insurance Claims",
+        "confidence_score": 0.82
+      },
+      "technical": {
+        "main_category": "Infrastructure",
+        "sub_category": "Azure",
+        "confidence_score": 0.72
+      },
+      "metadata": {
+        "severity": "Medium",
+        "priority": "P2",
+        "status": "Under Review",
+        "assigned_team": "Team-2",
+        "resolution_time": 15
+      },
+      "description": "Issue reported in Security system affecting Healthcare operations. Technical investigation reveals Infrastructure-related root cause."
+    },
+    {
+      "id": "931916e2-8722-4a77-a292-7dc56794c298",
+      "timestamp": "2025-10-10T03:24:03.854238",
+      "domain": {
+        "main_category": "Data",
+        "sub_category": "Databases",
+        "confidence_score": 0.78
+      },
+      "line_of_business": {
+        "main_category": "Healthcare",
+        "sub_category": "Insurance Claims",
+        "confidence_score": 0.77
+      },
+      "technical": {
+        "main_category": "Data",
+        "sub_category": "NoSQL",
+        "confidence_score": 0.91
+      },
+      "metadata": {
+        "severity": "Medium",
+        "priority": "P1",
+        "status": "In Progress",
+        "assigned_team": "Team-1",
+        "resolution_time": 6
+      },
+      "description": "Critical alert from Data monitoring system impacting Healthcare services. Requires immediate Data team intervention."
+    },
+    {
+      "id": "0fa9d80e-381e-4257-ba7b-e5951a83916c",
+      "timestamp": "2025-11-02T19:28:58.854256",
+      "domain": {
+        "main_category": "Data",
+        "sub_category": "Databases",
+        "confidence_score": 0.98
+      },
+      "line_of_business": {
+        "main_category": "Retail",
+        "sub_category": "E-commerce",
+        "confidence_score": 0.95
+      },
+      "technical": {
+        "main_category": "Security",
+        "sub_category": "Encryption",
+        "confidence_score": 0.7
+      },
+      "metadata": {
+        "severity": "Medium",
+        "priority": "P3",
+        "status": "In Progress",
+        "assigned_team": "Team-5",
+        "resolution_time": 40
+      },
+      "description": "Retail team reported degraded performance in Data components. Security team investigating the underlying cause."
+    },
+    {
+      "id": "56695b19-8e06-4920-9e72-38e1c09ef731",
+      "timestamp": "2025-10-31T21:45:06.854276",
+      "domain": {
+        "main_category": "Operations",
+        "sub_category": "Deployment",
+        "confidence_score": 0.76
+      },
+      "line_of_business": {
+        "main_category": "Manufacturing",
+        "sub_category": "Logistics",
+        "confidence_score": 0.8
+      },
+      "technical": {
+        "main_category": "Security",
+        "sub_category": "Compliance",
+        "confidence_score": 0.96
+      },
+      "metadata": {
+        "severity": "Low",
+        "priority": "P4",
+        "status": "Open",
+        "assigned_team": "Team-5",
+        "resolution_time": 47
+      },
+      "description": "Security audit identified potential risks in Operations systems used by Manufacturing. Security team implementing recommended fixes."
+    },
+    {
+      "id": "e2c22228-3bbf-424f-93d4-30adbf482153",
+      "timestamp": "2025-10-24T16:54:01.854293",
+      "domain": {
+        "main_category": "Infrastructure",
+        "sub_category": "Cloud",
+        "confidence_score": 0.76
+      },
+      "line_of_business": {
+        "main_category": "Finance",
+        "sub_category": "Investment",
+        "confidence_score": 0.9
+      },
+      "technical": {
+        "main_category": "Frontend",
+        "sub_category": "Angular",
+        "confidence_score": 0.94
+      },
+      "metadata": {
+        "severity": "High",
+        "priority": "P2",
+        "status": "Under Review",
+        "assigned_team": "Team-1",
+        "resolution_time": 30
+      },
+      "description": "Scheduled maintenance required for Infrastructure infrastructure supporting Finance applications. Frontend team to coordinate the effort."
+    },
+    {
+      "id": "229e2692-c9bc-47af-a7eb-1cc5f44e9a25",
+      "timestamp": "2025-10-10T07:31:52.854313",
+      "domain": {
+        "main_category": "Operations",
+        "sub_category": "Recovery",
+        "confidence_score": 0.91
+      },
+      "line_of_business": {
+        "main_category": "Finance",
+        "sub_category": "Banking",
+        "confidence_score": 0.96
+      },
+      "technical": {
+        "main_category": "Infrastructure",
+        "sub_category": "Docker",
+        "confidence_score": 0.97
+      },
+      "metadata": {
+        "severity": "High",
+        "priority": "P4",
+        "status": "In Progress",
+        "assigned_team": "Team-2",
+        "resolution_time": 46
+      },
+      "description": "Security audit identified potential risks in Operations systems used by Finance. Infrastructure team implementing recommended fixes."
+    },
+    {
+      "id": "7389f41a-d030-4aab-8122-b8266c33ff92",
+      "timestamp": "2025-10-22T09:51:24.854343",
+      "domain": {
+        "main_category": "Infrastructure",
+        "sub_category": "Cloud",
+        "confidence_score": 0.75
+      },
+      "line_of_business": {
+        "main_category": "Finance",
+        "sub_category": "Insurance",
+        "confidence_score": 0.86
+      },
+      "technical": {
+        "main_category": "Frontend",
+        "sub_category": "Vue",
+        "confidence_score": 0.78
+      },
+      "metadata": {
+        "severity": "Critical",
+        "priority": "P3",
+        "status": "Under Review",
+        "assigned_team": "Team-5",
+        "resolution_time": 44
+      },
+      "description": "Scheduled maintenance required for Infrastructure infrastructure supporting Finance applications. Frontend team to coordinate the effort."
+    },
+    {
+      "id": "694e6e17-4324-4a06-8435-27d476a95811",
+      "timestamp": "2025-10-12T08:08:36.854364",
+      "domain": {
+        "main_category": "Data",
+        "sub_category": "Data Lakes",
+        "confidence_score": 0.82
+      },
+      "line_of_business": {
+        "main_category": "Healthcare",
+        "sub_category": "Pharmacy",
+        "confidence_score": 0.98
+      },
+      "technical": {
+        "main_category": "Infrastructure",
+        "sub_category": "Docker",
+        "confidence_score": 0.78
+      },
+      "metadata": {
+        "severity": "Medium",
+        "priority": "P4",
+        "status": "In Progress",
+        "assigned_team": "Team-5",
+        "resolution_time": 45
+      },
+      "description": "Scheduled maintenance required for Data infrastructure supporting Healthcare applications. Infrastructure team to coordinate the effort."
+    },
+    {
+      "id": "f92c4435-cb2c-4671-b8d0-08022586bad3",
+      "timestamp": "2025-10-26T13:50:45.854382",
+      "domain": {
+        "main_category": "Infrastructure",
+        "sub_category": "Storage",
+        "confidence_score": 0.74
+      },
+      "line_of_business": {
+        "main_category": "Finance",
+        "sub_category": "Insurance",
+        "confidence_score": 0.99
+      },
+      "technical": {
+        "main_category": "Infrastructure",
+        "sub_category": "Docker",
+        "confidence_score": 0.87
+      },
+      "metadata": {
+        "severity": "Medium",
+        "priority": "P3",
+        "status": "Under Review",
+        "assigned_team": "Team-4",
+        "resolution_time": 11
+      },
+      "description": "Scheduled maintenance required for Infrastructure infrastructure supporting Finance applications. Infrastructure team to coordinate the effort."
+    },
+    {
+      "id": "34862db8-73ba-4b6d-bed4-ba4cfe948392",
+      "timestamp": "2025-10-25T06:17:23.854400",
+      "domain": {
+        "main_category": "Security",
+        "sub_category": "Data Privacy",
+        "confidence_score": 0.97
+      },
+      "line_of_business": {
+        "main_category": "Healthcare",
+        "sub_category": "Patient Care",
+        "confidence_score": 0.9
+      },
+      "technical": {
+        "main_category": "Infrastructure",
+        "sub_category": "AWS",
+        "confidence_score": 0.85
+      },
+      "metadata": {
+        "severity": "Critical",
+        "priority": "P1",
+        "status": "In Progress",
+        "assigned_team": "Team-4",
+        "resolution_time": 18
+      },
+      "description": "Security audit identified potential risks in Security systems used by Healthcare. Infrastructure team implementing recommended fixes."
+    },
+    {
+      "id": "8827aed1-050a-4727-bf60-e0a33773b066",
+      "timestamp": "2025-10-22T19:20:09.854417",
+      "domain": {
+        "main_category": "Infrastructure",
+        "sub_category": "Storage",
+        "confidence_score": 0.88
+      },
+      "line_of_business": {
+        "main_category": "Manufacturing",
+        "sub_category": "Supply Chain",
+        "confidence_score": 0.98
+      },
+      "technical": {
+        "main_category": "Security",
+        "sub_category": "Network Security",
+        "confidence_score": 0.99
+      },
+      "metadata": {
+        "severity": "Low",
+        "priority": "P3",
+        "status": "Resolved",
+        "assigned_team": "Team-5",
+        "resolution_time": 66
+      },
+      "description": "Critical alert from Infrastructure monitoring system impacting Manufacturing services. Requires immediate Security team intervention."
+    },
+    {
+      "id": "12f6abae-3d3a-4e0e-b612-8fdbb1c4b673",
+      "timestamp": "2025-10-28T01:51:51.854445",
+      "domain": {
+        "main_category": "Infrastructure",
+        "sub_category": "Networks",
+        "confidence_score": 0.78
+      },
+      "line_of_business": {
+        "main_category": "Retail",
+        "sub_category": "Customer Service",
+        "confidence_score": 0.9
+      },
+      "technical": {
+        "main_category": "Data",
+        "sub_category": "Analytics",
+        "confidence_score": 0.81
+      },
+      "metadata": {
+        "severity": "Critical",
+        "priority": "P2",
+        "status": "Under Review",
+        "assigned_team": "Team-5",
+        "resolution_time": 66
+      },
+      "description": "Scheduled maintenance required for Infrastructure infrastructure supporting Retail applications. Data team to coordinate the effort."
+    },
+    {
+      "id": "b334deb1-473d-4e5e-a755-cd8f3f9bdf9c",
+      "timestamp": "2025-11-04T14:19:59.854467",
+      "domain": {
+        "main_category": "Security",
+        "sub_category": "Network Security",
+        "confidence_score": 0.86
+      },
+      "line_of_business": {
+        "main_category": "Retail",
+        "sub_category": "Customer Service",
+        "confidence_score": 0.74
+      },
+      "technical": {
+        "main_category": "Security",
+        "sub_category": "IAM",
+        "confidence_score": 0.85
+      },
+      "metadata": {
+        "severity": "High",
+        "priority": "P4",
+        "status": "Resolved",
+        "assigned_team": "Team-2",
+        "resolution_time": 38
+      },
+      "description": "Retail team reported degraded performance in Security components. Security team investigating the underlying cause."
+    },
+    {
+      "id": "ffa2f5d3-48b6-4877-ba77-08ece3499d25",
+      "timestamp": "2025-10-07T20:08:49.854487",
+      "domain": {
+        "main_category": "Data",
+        "sub_category": "Analytics",
+        "confidence_score": 0.72
+      },
+      "line_of_business": {
+        "main_category": "Manufacturing",
+        "sub_category": "Supply Chain",
+        "confidence_score": 0.78
+      },
+      "technical": {
+        "main_category": "Security",
+        "sub_category": "Network Security",
+        "confidence_score": 0.72
+      },
+      "metadata": {
+        "severity": "Low",
+        "priority": "P1",
+        "status": "Resolved",
+        "assigned_team": "Team-5",
+        "resolution_time": 26
+      },
+      "description": "Scheduled maintenance required for Data infrastructure supporting Manufacturing applications. Security team to coordinate the effort."
+    },
+    {
+      "id": "65a0e20d-2159-4f21-ae1a-102ac2f6d6ab",
+      "timestamp": "2025-10-08T13:59:10.854506",
+      "domain": {
+        "main_category": "Operations",
+        "sub_category": "Recovery",
+        "confidence_score": 0.82
+      },
+      "line_of_business": {
+        "main_category": "Retail",
+        "sub_category": "Inventory",
+        "confidence_score": 0.76
+      },
+      "technical": {
+        "main_category": "Security",
+        "sub_category": "IAM",
+        "confidence_score": 0.87
+      },
+      "metadata": {
+        "severity": "High",
+        "priority": "P3",
+        "status": "Resolved",
+        "assigned_team": "Team-3",
+        "resolution_time": 50
+      },
+      "description": "Scheduled maintenance required for Operations infrastructure supporting Retail applications. Security team to coordinate the effort."
+    },
+    {
+      "id": "ec0fc967-591d-4668-83ae-73630b1aa7af",
+      "timestamp": "2025-10-19T19:28:38.854523",
+      "domain": {
+        "main_category": "Security",
+        "sub_category": "Compliance",
+        "confidence_score": 0.76
+      },
+      "line_of_business": {
+        "main_category": "Finance",
+        "sub_category": "Treasury",
+        "confidence_score": 0.87
+      },
+      "technical": {
+        "main_category": "Security",
+        "sub_category": "Compliance",
+        "confidence_score": 0.78
+      },
+      "metadata": {
+        "severity": "Critical",
+        "priority": "P1",
+        "status": "Closed",
+        "assigned_team": "Team-3",
+        "resolution_time": null
+      },
+      "description": "Issue reported in Security system affecting Finance operations. Technical investigation reveals Security-related root cause."
+    },
+    {
+      "id": "b82ebdc7-dd15-4f10-9905-c9d82f5f5add",
+      "timestamp": "2025-10-24T12:26:31.854546",
+      "domain": {
+        "main_category": "Data",
+        "sub_category": "Data Warehouses",
+        "confidence_score": 0.84
+      },
+      "line_of_business": {
+        "main_category": "Finance",
+        "sub_category": "Insurance",
+        "confidence_score": 0.93
+      },
+      "technical": {
+        "main_category": "Infrastructure",
+        "sub_category": "GCP",
+        "confidence_score": 0.78
+      },
+      "metadata": {
+        "severity": "High",
+        "priority": "P4",
+        "status": "In Progress",
+        "assigned_team": "Team-4",
+        "resolution_time": null
+      },
+      "description": "Issue reported in Data system affecting Finance operations. Technical investigation reveals Infrastructure-related root cause."
+    },
+    {
+      "id": "5c74e80e-47f5-4039-a1ba-4dcb61570435",
+      "timestamp": "2025-10-05T09:33:14.854577",
+      "domain": {
+        "main_category": "Infrastructure",
+        "sub_category": "Cloud",
+        "confidence_score": 0.83
+      },
+      "line_of_business": {
+        "main_category": "Healthcare",
+        "sub_category": "Pharmacy",
+        "confidence_score": 0.98
+      },
+      "technical": {
+        "main_category": "Frontend",
+        "sub_category": "Mobile",
+        "confidence_score": 0.82
+      },
+      "metadata": {
+        "severity": "High",
+        "priority": "P3",
+        "status": "In Progress",
+        "assigned_team": "Team-4",
+        "resolution_time": 48
+      },
+      "description": "Critical alert from Infrastructure monitoring system impacting Healthcare services. Requires immediate Frontend team intervention."
+    },
+    {
+      "id": "1cc12f85-8ba6-48f5-8384-1ca2e9d43e89",
+      "timestamp": "2025-10-19T06:31:11.854597",
+      "domain": {
+        "main_category": "Operations",
+        "sub_category": "Backup",
+        "confidence_score": 0.99
+      },
+      "line_of_business": {
+        "main_category": "Finance",
+        "sub_category": "Treasury",
+        "confidence_score": 0.87
+      },
+      "technical": {
+        "main_category": "Backend",
+        "sub_category": "Microservices",
+        "confidence_score": 0.72
+      },
+      "metadata": {
+        "severity": "Medium",
+        "priority": "P3",
+        "status": "Resolved",
+        "assigned_team": "Team-5",
+        "resolution_time": 65
+      },
+      "description": "Security audit identified potential risks in Operations systems used by Finance. Backend team implementing recommended fixes."
+    },
+    {
+      "id": "43b34a5a-975e-4465-8036-99b2a7cc13b6",
+      "timestamp": "2025-10-23T12:04:39.854614",
+      "domain": {
+        "main_category": "Data",
+        "sub_category": "Databases",
+        "confidence_score": 0.96
+      },
+      "line_of_business": {
+        "main_category": "Retail",
+        "sub_category": "Customer Service",
+        "confidence_score": 0.92
+      },
+      "technical": {
+        "main_category": "Infrastructure",
+        "sub_category": "AWS",
+        "confidence_score": 0.76
+      },
+      "metadata": {
+        "severity": "Critical",
+        "priority": "P2",
+        "status": "Closed",
+        "assigned_team": "Team-2",
+        "resolution_time": 34
+      },
+      "description": "Security audit identified potential risks in Data systems used by Retail. Infrastructure team implementing recommended fixes."
+    },
+    {
+      "id": "bae7f0ff-e52d-4144-8635-daa181e400a3",
+      "timestamp": "2025-10-14T10:17:59.854630",
+      "domain": {
+        "main_category": "Applications",
+        "sub_category": "Desktop Apps",
+        "confidence_score": 0.95
+      },
+      "line_of_business": {
+        "main_category": "Manufacturing",
+        "sub_category": "Supply Chain",
+        "confidence_score": 0.95
+      },
+      "technical": {
+        "main_category": "Infrastructure",
+        "sub_category": "Kubernetes",
+        "confidence_score": 0.85
+      },
+      "metadata": {
+        "severity": "Medium",
+        "priority": "P2",
+        "status": "Open",
+        "assigned_team": "Team-2",
+        "resolution_time": null
+      },
+      "description": "Scheduled maintenance required for Applications infrastructure supporting Manufacturing applications. Infrastructure team to coordinate the effort."
+    },
+    {
+      "id": "dfc66287-bf94-4b1f-bf5b-ebef78ebd5d9",
+      "timestamp": "2025-10-06T04:12:35.854647",
+      "domain": {
+        "main_category": "Data",
+        "sub_category": "Analytics",
+        "confidence_score": 0.78
+      },
+      "line_of_business": {
+        "main_category": "Manufacturing",
+        "sub_category": "Supply Chain",
+        "confidence_score": 0.9
+      },
+      "technical": {
+        "main_category": "Security",
+        "sub_category": "Auditing",
+        "confidence_score": 0.85
+      },
+      "metadata": {
+        "severity": "Low",
+        "priority": "P2",
+        "status": "Under Review",
+        "assigned_team": "Team-2",
+        "resolution_time": 19
+      },
+      "description": "Issue reported in Data system affecting Manufacturing operations. Technical investigation reveals Security-related root cause."
+    },
+    {
+      "id": "5dcfb7d9-f1cc-4770-b1cd-e70b8da15f70",
+      "timestamp": "2025-10-18T03:21:13.854677",
+      "domain": {
+        "main_category": "Applications",
+        "sub_category": "Microservices",
+        "confidence_score": 0.85
+      },
+      "line_of_business": {
+        "main_category": "Technology",
+        "sub_category": "Software Development",
+        "confidence_score": 0.77
+      },
+      "technical": {
+        "main_category": "Security",
+        "sub_category": "Network Security",
+        "confidence_score": 0.73
+      },
+      "metadata": {
+        "severity": "Critical",
+        "priority": "P2",
+        "status": "Resolved",
+        "assigned_team": "Team-2",
+        "resolution_time": 6
+      },
+      "description": "Technology team reported degraded performance in Applications components. Security team investigating the underlying cause."
+    },
+    {
+      "id": "91253f8b-496b-4bb1-bc51-cf46188c2f87",
+      "timestamp": "2025-10-26T01:42:45.854698",
+      "domain": {
+        "main_category": "Data",
+        "sub_category": "Data Lakes",
+        "confidence_score": 0.94
+      },
+      "line_of_business": {
+        "main_category": "Technology",
+        "sub_category": "Consulting",
+        "confidence_score": 0.83
+      },
+      "technical": {
+        "main_category": "Infrastructure",
+        "sub_category": "AWS",
+        "confidence_score": 0.89
+      },
+      "metadata": {
+        "severity": "Medium",
+        "priority": "P1",
+        "status": "Under Review",
+        "assigned_team": "Team-5",
+        "resolution_time": 3
+      },
+      "description": "Issue reported in Data system affecting Technology operations. Technical investigation reveals Infrastructure-related root cause."
+    },
+    {
+      "id": "d46d440f-90c3-43ed-b6fa-9c831a990a87",
+      "timestamp": "2025-10-16T18:21:21.854713",
+      "domain": {
+        "main_category": "Security",
+        "sub_category": "Network Security",
+        "confidence_score": 0.74
+      },
+      "line_of_business": {
+        "main_category": "Retail",
+        "sub_category": "Inventory",
+        "confidence_score": 0.94
+      },
+      "technical": {
+        "main_category": "Security",
+        "sub_category": "Encryption",
+        "confidence_score": 0.78
+      },
+      "metadata": {
+        "severity": "High",
+        "priority": "P3",
+        "status": "In Progress",
+        "assigned_team": "Team-4",
+        "resolution_time": 47
+      },
+      "description": "Retail team reported degraded performance in Security components. Security team investigating the underlying cause."
+    },
+    {
+      "id": "b24dbb3b-2315-446e-a053-f8b8229afec3",
+      "timestamp": "2025-10-19T17:16:04.854728",
+      "domain": {
+        "main_category": "Data",
+        "sub_category": "Analytics",
+        "confidence_score": 0.7
+      },
+      "line_of_business": {
+        "main_category": "Manufacturing",
+        "sub_category": "Assembly",
+        "confidence_score": 0.96
+      },
+      "technical": {
+        "main_category": "Infrastructure",
+        "sub_category": "GCP",
+        "confidence_score": 0.9
+      },
+      "metadata": {
+        "severity": "Critical",
+        "priority": "P1",
+        "status": "Resolved",
+        "assigned_team": "Team-5",
+        "resolution_time": null
+      },
+      "description": "Manufacturing team reported degraded performance in Data components. Infrastructure team investigating the underlying cause."
+    },
+    {
+      "id": "fd49bbd9-9e1a-4b4b-8769-bc4c1520c802",
+      "timestamp": "2025-10-22T06:46:48.854745",
+      "domain": {
+        "main_category": "Security",
+        "sub_category": "Access Control",
+        "confidence_score": 0.72
+      },
+      "line_of_business": {
+        "main_category": "Healthcare",
+        "sub_category": "Pharmacy",
+        "confidence_score": 0.8
+      },
+      "technical": {
+        "main_category": "Backend",
+        "sub_category": "Databases",
+        "confidence_score": 0.76
+      },
+      "metadata": {
+        "severity": "Critical",
+        "priority": "P2",
+        "status": "Closed",
+        "assigned_team": "Team-4",
+        "resolution_time": 13
+      },
+      "description": "Critical alert from Security monitoring system impacting Healthcare services. Requires immediate Backend team intervention."
+    },
+    {
+      "id": "be2f3552-8741-48b5-b82f-e42ab68ef737",
+      "timestamp": "2025-10-25T10:13:18.854764",
+      "domain": {
+        "main_category": "Infrastructure",
+        "sub_category": "On-Premise",
+        "confidence_score": 0.88
+      },
+      "line_of_business": {
+        "main_category": "Retail",
+        "sub_category": "Point of Sale",
+        "confidence_score": 0.74
+      },
+      "technical": {
+        "main_category": "Backend",
+        "sub_category": "Microservices",
+        "confidence_score": 0.8
+      },
+      "metadata": {
+        "severity": "Low",
+        "priority": "P1",
+        "status": "Resolved",
+        "assigned_team": "Team-2",
+        "resolution_time": 26
+      },
+      "description": "Issue reported in Infrastructure system affecting Retail operations. Technical investigation reveals Backend-related root cause."
+    },
+    {
+      "id": "82bcc8d9-2e39-4de6-b650-cc19227aec55",
+      "timestamp": "2025-10-21T03:30:50.854791",
+      "domain": {
+        "main_category": "Infrastructure",
+        "sub_category": "On-Premise",
+        "confidence_score": 0.77
+      },
+      "line_of_business": {
+        "main_category": "Retail",
+        "sub_category": "Inventory",
+        "confidence_score": 0.97
+      },
+      "technical": {
+        "main_category": "Backend",
+        "sub_category": "Authentication",
+        "confidence_score": 0.87
+      },
+      "metadata": {
+        "severity": "Low",
+        "priority": "P3",
+        "status": "In Progress",
+        "assigned_team": "Team-1",
+        "resolution_time": 37
+      },
+      "description": "Scheduled maintenance required for Infrastructure infrastructure supporting Retail applications. Backend team to coordinate the effort."
+    },
+    {
+      "id": "cce7a7b6-0c8d-4a0a-a5d9-e4e40a528edb",
+      "timestamp": "2025-10-18T18:11:22.854812",
+      "domain": {
+        "main_category": "Data",
+        "sub_category": "Data Warehouses",
+        "confidence_score": 0.77
+      },
+      "line_of_business": {
+        "main_category": "Retail",
+        "sub_category": "Inventory",
+        "confidence_score": 0.75
+      },
+      "technical": {
+        "main_category": "Data",
+        "sub_category": "SQL",
+        "confidence_score": 0.84
+      },
+      "metadata": {
+        "severity": "Critical",
+        "priority": "P4",
+        "status": "Open",
+        "assigned_team": "Team-5",
+        "resolution_time": null
+      },
+      "description": "Issue reported in Data system affecting Retail operations. Technical investigation reveals Data-related root cause."
+    },
+    {
+      "id": "600b519c-4882-403a-84c4-a872f8863b58",
+      "timestamp": "2025-10-26T08:11:22.854831",
+      "domain": {
+        "main_category": "Data",
+        "sub_category": "Data Lakes",
+        "confidence_score": 0.77
+      },
+      "line_of_business": {
+        "main_category": "Retail",
+        "sub_category": "Supply Chain",
+        "confidence_score": 0.79
+      },
+      "technical": {
+        "main_category": "Frontend",
+        "sub_category": "Angular",
+        "confidence_score": 0.76
+      },
+      "metadata": {
+        "severity": "Medium",
+        "priority": "P1",
+        "status": "Resolved",
+        "assigned_team": "Team-4",
+        "resolution_time": 52
+      },
+      "description": "Scheduled maintenance required for Data infrastructure supporting Retail applications. Frontend team to coordinate the effort."
+    },
+    {
+      "id": "14b46e52-19e8-4740-85e9-11c62a36d322",
+      "timestamp": "2025-10-14T14:59:57.854847",
+      "domain": {
+        "main_category": "Applications",
+        "sub_category": "APIs",
+        "confidence_score": 0.74
+      },
+      "line_of_business": {
+        "main_category": "Manufacturing",
+        "sub_category": "Logistics",
+        "confidence_score": 0.97
+      },
+      "technical": {
+        "main_category": "Data",
+        "sub_category": "ETL",
+        "confidence_score": 0.99
+      },
+      "metadata": {
+        "severity": "Medium",
+        "priority": "P2",
+        "status": "In Progress",
+        "assigned_team": "Team-2",
+        "resolution_time": 72
+      },
+      "description": "Security audit identified potential risks in Applications systems used by Manufacturing. Data team implementing recommended fixes."
+    },
+    {
+      "id": "17d02b20-459a-44b1-89b8-886f547da015",
+      "timestamp": "2025-10-22T01:18:38.854869",
+      "domain": {
+        "main_category": "Data",
+        "sub_category": "Data Lakes",
+        "confidence_score": 0.8
+      },
+      "line_of_business": {
+        "main_category": "Retail",
+        "sub_category": "Supply Chain",
+        "confidence_score": 0.92
+      },
+      "technical": {
+        "main_category": "Frontend",
+        "sub_category": "UI/UX",
+        "confidence_score": 0.82
+      },
+      "metadata": {
+        "severity": "Low",
+        "priority": "P4",
+        "status": "Open",
+        "assigned_team": "Team-1",
+        "resolution_time": null
+      },
+      "description": "Security audit identified potential risks in Data systems used by Retail. Frontend team implementing recommended fixes."
+    },
+    {
+      "id": "79a2700a-d408-4ccd-9819-dd3421143b67",
+      "timestamp": "2025-10-24T07:39:40.854895",
+      "domain": {
+        "main_category": "Security",
+        "sub_category": "Data Privacy",
+        "confidence_score": 0.84
+      },
+      "line_of_business": {
+        "main_category": "Retail",
+        "sub_category": "E-commerce",
+        "confidence_score": 0.94
+      },
+      "technical": {
+        "main_category": "Frontend",
+        "sub_category": "Angular",
+        "confidence_score": 0.73
+      },
+      "metadata": {
+        "severity": "Low",
+        "priority": "P4",
+        "status": "Closed",
+        "assigned_team": "Team-4",
+        "resolution_time": 13
+      },
+      "description": "Security audit identified potential risks in Security systems used by Retail. Frontend team implementing recommended fixes."
+    },
+    {
+      "id": "f895ccf9-7fe1-48cc-b2c2-cf2d48450446",
+      "timestamp": "2025-11-04T11:03:36.854918",
+      "domain": {
+        "main_category": "Data",
+        "sub_category": "Analytics",
+        "confidence_score": 0.85
+      },
+      "line_of_business": {
+        "main_category": "Technology",
+        "sub_category": "Consulting",
+        "confidence_score": 0.79
+      },
+      "technical": {
+        "main_category": "Security",
+        "sub_category": "Compliance",
+        "confidence_score": 0.76
+      },
+      "metadata": {
+        "severity": "Critical",
+        "priority": "P3",
+        "status": "Under Review",
+        "assigned_team": "Team-2",
+        "resolution_time": 32
+      },
+      "description": "Issue reported in Data system affecting Technology operations. Technical investigation reveals Security-related root cause."
+    },
+    {
+      "id": "8cc4a8ad-a5a3-4e46-b595-b6fd9358bc4d",
+      "timestamp": "2025-10-24T02:26:11.854945",
+      "domain": {
+        "main_category": "Security",
+        "sub_category": "Compliance",
+        "confidence_score": 0.96
+      },
+      "line_of_business": {
+        "main_category": "Manufacturing",
+        "sub_category": "Assembly",
+        "confidence_score": 0.79
+      },
+      "technical": {
+        "main_category": "Frontend",
+        "sub_category": "React",
+        "confidence_score": 0.88
+      },
+      "metadata": {
+        "severity": "High",
+        "priority": "P1",
+        "status": "In Progress",
+        "assigned_team": "Team-5",
+        "resolution_time": null
+      },
+      "description": "Critical alert from Security monitoring system impacting Manufacturing services. Requires immediate Frontend team intervention."
+    },
+    {
+      "id": "ce152966-de04-4132-baf3-1d53acfe5c3f",
+      "timestamp": "2025-10-11T20:16:30.854973",
+      "domain": {
+        "main_category": "Infrastructure",
+        "sub_category": "Networks",
+        "confidence_score": 0.9
+      },
+      "line_of_business": {
+        "main_category": "Retail",
+        "sub_category": "Point of Sale",
+        "confidence_score": 0.96
+      },
+      "technical": {
+        "main_category": "Security",
+        "sub_category": "Encryption",
+        "confidence_score": 0.98
+      },
+      "metadata": {
+        "severity": "Critical",
+        "priority": "P3",
+        "status": "Resolved",
+        "assigned_team": "Team-2",
+        "resolution_time": 50
+      },
+      "description": "Issue reported in Infrastructure system affecting Retail operations. Technical investigation reveals Security-related root cause."
+    },
+    {
+      "id": "52fdc0ac-dd59-493b-be77-c737b38edaa2",
+      "timestamp": "2025-10-20T02:42:38.855001",
+      "domain": {
+        "main_category": "Security",
+        "sub_category": "Authentication",
+        "confidence_score": 0.72
+      },
+      "line_of_business": {
+        "main_category": "Healthcare",
+        "sub_category": "Patient Care",
+        "confidence_score": 0.71
+      },
+      "technical": {
+        "main_category": "Backend",
+        "sub_category": "Authentication",
+        "confidence_score": 0.95
+      },
+      "metadata": {
+        "severity": "Low",
+        "priority": "P4",
+        "status": "Under Review",
+        "assigned_team": "Team-3",
+        "resolution_time": null
+      },
+      "description": "Critical alert from Security monitoring system impacting Healthcare services. Requires immediate Backend team intervention."
+    },
+    {
+      "id": "40e72b0a-d51f-4736-8e2a-a1c2e59bb098",
+      "timestamp": "2025-10-08T18:19:25.855022",
+      "domain": {
+        "main_category": "Infrastructure",
+        "sub_category": "Servers",
+        "confidence_score": 0.79
+      },
+      "line_of_business": {
+        "main_category": "Technology",
+        "sub_category": "IT Services",
+        "confidence_score": 0.9
+      },
+      "technical": {
+        "main_category": "Data",
+        "sub_category": "Data Lakes",
+        "confidence_score": 0.93
+      },
+      "metadata": {
+        "severity": "High",
+        "priority": "P1",
+        "status": "Closed",
+        "assigned_team": "Team-4",
+        "resolution_time": null
+      },
+      "description": "Issue reported in Infrastructure system affecting Technology operations. Technical investigation reveals Data-related root cause."
+    },
+    {
+      "id": "4f51c808-a445-44f8-bc68-84a705d200d0",
+      "timestamp": "2025-10-05T22:07:05.855040",
+      "domain": {
+        "main_category": "Operations",
+        "sub_category": "Deployment",
+        "confidence_score": 0.97
+      },
+      "line_of_business": {
+        "main_category": "Technology",
+        "sub_category": "Consulting",
+        "confidence_score": 0.96
+      },
+      "technical": {
+        "main_category": "Backend",
+        "sub_category": "Caching",
+        "confidence_score": 0.73
+      },
+      "metadata": {
+        "severity": "Low",
+        "priority": "P4",
+        "status": "Resolved",
+        "assigned_team": "Team-5",
+        "resolution_time": 63
+      },
+      "description": "Issue reported in Operations system affecting Technology operations. Technical investigation reveals Backend-related root cause."
+    },
+    {
+      "id": "e652b8a1-b9a0-4a75-ad4a-f9d0865a02ff",
+      "timestamp": "2025-10-10T17:30:54.855056",
+      "domain": {
+        "main_category": "Operations",
+        "sub_category": "Maintenance",
+        "confidence_score": 0.94
+      },
+      "line_of_business": {
+        "main_category": "Retail",
+        "sub_category": "E-commerce",
+        "confidence_score": 0.7
+      },
+      "technical": {
+        "main_category": "Frontend",
+        "sub_category": "React",
+        "confidence_score": 0.82
+      },
+      "metadata": {
+        "severity": "Critical",
+        "priority": "P4",
+        "status": "Closed",
+        "assigned_team": "Team-3",
+        "resolution_time": 19
+      },
+      "description": "Critical alert from Operations monitoring system impacting Retail services. Requires immediate Frontend team intervention."
+    },
+    {
+      "id": "382b35c4-814e-4761-9a81-ac3553c4a064",
+      "timestamp": "2025-11-03T06:13:09.855077",
+      "domain": {
+        "main_category": "Security",
+        "sub_category": "Compliance",
+        "confidence_score": 0.94
+      },
+      "line_of_business": {
+        "main_category": "Healthcare",
+        "sub_category": "Patient Care",
+        "confidence_score": 0.95
+      },
+      "technical": {
+        "main_category": "Security",
+        "sub_category": "Auditing",
+        "confidence_score": 0.77
+      },
+      "metadata": {
+        "severity": "Low",
+        "priority": "P3",
+        "status": "Resolved",
+        "assigned_team": "Team-2",
+        "resolution_time": 69
+      },
+      "description": "Critical alert from Security monitoring system impacting Healthcare services. Requires immediate Security team intervention."
+    },
+    {
+      "id": "2ce67638-f477-4412-86fa-633c19764983",
+      "timestamp": "2025-10-26T01:23:32.855107",
+      "domain": {
+        "main_category": "Operations",
+        "sub_category": "Deployment",
+        "confidence_score": 0.99
+      },
+      "line_of_business": {
+        "main_category": "Manufacturing",
+        "sub_category": "Supply Chain",
+        "confidence_score": 0.97
+      },
+      "technical": {
+        "main_category": "Data",
+        "sub_category": "ETL",
+        "confidence_score": 0.73
+      },
+      "metadata": {
+        "severity": "Low",
+        "priority": "P3",
+        "status": "Open",
+        "assigned_team": "Team-2",
+        "resolution_time": 21
+      },
+      "description": "Security audit identified potential risks in Operations systems used by Manufacturing. Data team implementing recommended fixes."
+    },
+    {
+      "id": "5c41f755-b402-4ce3-a67b-fe09a5dee333",
+      "timestamp": "2025-10-10T20:51:18.855127",
+      "domain": {
+        "main_category": "Security",
+        "sub_category": "Data Privacy",
+        "confidence_score": 0.95
+      },
+      "line_of_business": {
+        "main_category": "Manufacturing",
+        "sub_category": "Supply Chain",
+        "confidence_score": 0.93
+      },
+      "technical": {
+        "main_category": "Security",
+        "sub_category": "Compliance",
+        "confidence_score": 0.85
+      },
+      "metadata": {
+        "severity": "High",
+        "priority": "P4",
+        "status": "In Progress",
+        "assigned_team": "Team-3",
+        "resolution_time": null
+      },
+      "description": "Critical alert from Security monitoring system impacting Manufacturing services. Requires immediate Security team intervention."
+    },
+    {
+      "id": "a0ea42f8-e523-4aab-9caa-082e1100366d",
+      "timestamp": "2025-11-04T19:45:41.855142",
+      "domain": {
+        "main_category": "Security",
+        "sub_category": "Data Privacy",
+        "confidence_score": 0.8
+      },
+      "line_of_business": {
+        "main_category": "Finance",
+        "sub_category": "Investment",
+        "confidence_score": 0.79
+      },
+      "technical": {
+        "main_category": "Infrastructure",
+        "sub_category": "Docker",
+        "confidence_score": 0.94
+      },
+      "metadata": {
+        "severity": "High",
+        "priority": "P2",
+        "status": "Closed",
+        "assigned_team": "Team-3",
+        "resolution_time": 63
+      },
+      "description": "Issue reported in Security system affecting Finance operations. Technical investigation reveals Infrastructure-related root cause."
+    },
+    {
+      "id": "eb5d02ba-b6a8-4738-af4c-eceee31c2084",
+      "timestamp": "2025-10-28T18:31:41.855158",
+      "domain": {
+        "main_category": "Operations",
+        "sub_category": "Monitoring",
+        "confidence_score": 0.97
+      },
+      "line_of_business": {
+        "main_category": "Technology",
+        "sub_category": "Cloud Services",
+        "confidence_score": 0.84
+      },
+      "technical": {
+        "main_category": "Infrastructure",
+        "sub_category": "AWS",
+        "confidence_score": 0.86
+      },
+      "metadata": {
+        "severity": "Medium",
+        "priority": "P3",
+        "status": "Resolved",
+        "assigned_team": "Team-3",
+        "resolution_time": 9
+      },
+      "description": "Technology team reported degraded performance in Operations components. Infrastructure team investigating the underlying cause."
+    },
+    {
+      "id": "6394355e-47b5-4d72-8177-0c6fc859a796",
+      "timestamp": "2025-10-15T05:20:08.855178",
+      "domain": {
+        "main_category": "Infrastructure",
+        "sub_category": "Cloud",
+        "confidence_score": 0.88
+      },
+      "line_of_business": {
+        "main_category": "Healthcare",
+        "sub_category": "Lab Services",
+        "confidence_score": 0.95
+      },
+      "technical": {
+        "main_category": "Security",
+        "sub_category": "Auditing",
+        "confidence_score": 0.7
+      },
+      "metadata": {
+        "severity": "Medium",
+        "priority": "P4",
+        "status": "Open",
+        "assigned_team": "Team-2",
+        "resolution_time": null
+      },
+      "description": "Healthcare team reported degraded performance in Infrastructure components. Security team investigating the underlying cause."
+    },
+    {
+      "id": "87228738-e45d-4803-bffc-7ae6fc912199",
+      "timestamp": "2025-10-24T02:27:27.855202",
+      "domain": {
+        "main_category": "Infrastructure",
+        "sub_category": "Storage",
+        "confidence_score": 0.91
+      },
+      "line_of_business": {
+        "main_category": "Manufacturing",
+        "sub_category": "Assembly",
+        "confidence_score": 0.73
+      },
+      "technical": {
+        "main_category": "Security",
+        "sub_category": "Network Security",
+        "confidence_score": 0.85
+      },
+      "metadata": {
+        "severity": "Critical",
+        "priority": "P2",
+        "status": "Under Review",
+        "assigned_team": "Team-4",
+        "resolution_time": 15
+      },
+      "description": "Security audit identified potential risks in Infrastructure systems used by Manufacturing. Security team implementing recommended fixes."
+    },
+    {
+      "id": "73f56871-566c-4386-8c20-7197d4159f99",
+      "timestamp": "2025-10-22T07:12:27.855228",
+      "domain": {
+        "main_category": "Infrastructure",
+        "sub_category": "Cloud",
+        "confidence_score": 0.79
+      },
+      "line_of_business": {
+        "main_category": "Technology",
+        "sub_category": "Support",
+        "confidence_score": 0.92
+      },
+      "technical": {
+        "main_category": "Frontend",
+        "sub_category": "React",
+        "confidence_score": 0.78
+      },
+      "metadata": {
+        "severity": "High",
+        "priority": "P2",
+        "status": "Under Review",
+        "assigned_team": "Team-5",
+        "resolution_time": 67
+      },
+      "description": "Issue reported in Infrastructure system affecting Technology operations. Technical investigation reveals Frontend-related root cause."
+    },
+    {
+      "id": "88bbc2bd-2899-4251-9dd6-fa0676350edd",
+      "timestamp": "2025-10-29T17:35:26.855244",
+      "domain": {
+        "main_category": "Applications",
+        "sub_category": "Web Apps",
+        "confidence_score": 0.89
+      },
+      "line_of_business": {
+        "main_category": "Technology",
+        "sub_category": "Cloud Services",
+        "confidence_score": 0.94
+      },
+      "technical": {
+        "main_category": "Frontend",
+        "sub_category": "UI/UX",
+        "confidence_score": 0.91
+      },
+      "metadata": {
+        "severity": "High",
+        "priority": "P3",
+        "status": "Under Review",
+        "assigned_team": "Team-3",
+        "resolution_time": 19
+      },
+      "description": "Issue reported in Applications system affecting Technology operations. Technical investigation reveals Frontend-related root cause."
+    },
+    {
+      "id": "6b1c4e5d-85c5-4b7a-96e0-b5031bfa8801",
+      "timestamp": "2025-10-26T05:15:17.855259",
+      "domain": {
+        "main_category": "Applications",
+        "sub_category": "APIs",
+        "confidence_score": 0.92
+      },
+      "line_of_business": {
+        "main_category": "Finance",
+        "sub_category": "Insurance",
+        "confidence_score": 1.0
+      },
+      "technical": {
+        "main_category": "Backend",
+        "sub_category": "APIs",
+        "confidence_score": 0.77
+      },
+      "metadata": {
+        "severity": "Low",
+        "priority": "P1",
+        "status": "In Progress",
+        "assigned_team": "Team-4",
+        "resolution_time": null
+      },
+      "description": "Finance team reported degraded performance in Applications components. Backend team investigating the underlying cause."
+    },
+    {
+      "id": "8f675a15-c737-43d6-8b65-4252fbe54340",
+      "timestamp": "2025-10-23T17:12:45.855277",
+      "domain": {
+        "main_category": "Data",
+        "sub_category": "Analytics",
+        "confidence_score": 0.93
+      },
+      "line_of_business": {
+        "main_category": "Technology",
+        "sub_category": "Consulting",
+        "confidence_score": 0.97
+      },
+      "technical": {
+        "main_category": "Backend",
+        "sub_category": "Caching",
+        "confidence_score": 0.7
+      },
+      "metadata": {
+        "severity": "Low",
+        "priority": "P1",
+        "status": "In Progress",
+        "assigned_team": "Team-3",
+        "resolution_time": 4
+      },
+      "description": "Issue reported in Data system affecting Technology operations. Technical investigation reveals Backend-related root cause."
+    },
+    {
+      "id": "28e58590-58b2-4789-a26f-8e76e94e2349",
+      "timestamp": "2025-10-19T14:11:44.855301",
+      "domain": {
+        "main_category": "Infrastructure",
+        "sub_category": "Servers",
+        "confidence_score": 0.85
+      },
+      "line_of_business": {
+        "main_category": "Finance",
+        "sub_category": "Investment",
+        "confidence_score": 0.85
+      },
+      "technical": {
+        "main_category": "Backend",
+        "sub_category": "Caching",
+        "confidence_score": 0.74
+      },
+      "metadata": {
+        "severity": "Critical",
+        "priority": "P3",
+        "status": "Resolved",
+        "assigned_team": "Team-4",
+        "resolution_time": 42
+      },
+      "description": "Critical alert from Infrastructure monitoring system impacting Finance services. Requires immediate Backend team intervention."
+    },
+    {
+      "id": "4f27b7dd-3a0c-4aaf-91e1-f588e0ce3832",
+      "timestamp": "2025-10-18T19:35:46.855327",
+      "domain": {
+        "main_category": "Infrastructure",
+        "sub_category": "Storage",
+        "confidence_score": 0.91
+      },
+      "line_of_business": {
+        "main_category": "Healthcare",
+        "sub_category": "Medical Records",
+        "confidence_score": 0.93
+      },
+      "technical": {
+        "main_category": "Backend",
+        "sub_category": "Authentication",
+        "confidence_score": 0.89
+      },
+      "metadata": {
+        "severity": "Low",
+        "priority": "P2",
+        "status": "Closed",
+        "assigned_team": "Team-2",
+        "resolution_time": 44
+      },
+      "description": "Healthcare team reported degraded performance in Infrastructure components. Backend team investigating the underlying cause."
+    },
+    {
+      "id": "8dd5ab07-394c-4b7d-99e5-5c95fb980b68",
+      "timestamp": "2025-10-05T15:38:55.855347",
+      "domain": {
+        "main_category": "Infrastructure",
+        "sub_category": "Storage",
+        "confidence_score": 0.91
+      },
+      "line_of_business": {
+        "main_category": "Finance",
+        "sub_category": "Insurance",
+        "confidence_score": 0.79
+      },
+      "technical": {
+        "main_category": "Data",
+        "sub_category": "NoSQL",
+        "confidence_score": 0.71
+      },
+      "metadata": {
+        "severity": "High",
+        "priority": "P2",
+        "status": "Open",
+        "assigned_team": "Team-1",
+        "resolution_time": null
+      },
+      "description": "Critical alert from Infrastructure monitoring system impacting Finance services. Requires immediate Data team intervention."
+    },
+    {
+      "id": "3eaf79d9-11aa-49b7-bf4f-514910c17e12",
+      "timestamp": "2025-10-05T08:51:56.855362",
+      "domain": {
+        "main_category": "Operations",
+        "sub_category": "Backup",
+        "confidence_score": 0.8
+      },
+      "line_of_business": {
+        "main_category": "Healthcare",
+        "sub_category": "Insurance Claims",
+        "confidence_score": 0.74
+      },
+      "technical": {
+        "main_category": "Infrastructure",
+        "sub_category": "Kubernetes",
+        "confidence_score": 0.74
+      },
+      "metadata": {
+        "severity": "High",
+        "priority": "P1",
+        "status": "Resolved",
+        "assigned_team": "Team-3",
+        "resolution_time": 66
+      },
+      "description": "Scheduled maintenance required for Operations infrastructure supporting Healthcare applications. Infrastructure team to coordinate the effort."
+    },
+    {
+      "id": "274e9787-63a2-441d-8955-c73ff79a7b3a",
+      "timestamp": "2025-10-17T07:06:14.855377",
+      "domain": {
+        "main_category": "Data",
+        "sub_category": "Databases",
+        "confidence_score": 0.96
+      },
+      "line_of_business": {
+        "main_category": "Manufacturing",
+        "sub_category": "Logistics",
+        "confidence_score": 0.98
+      },
+      "technical": {
+        "main_category": "Backend",
+        "sub_category": "Databases",
+        "confidence_score": 0.84
+      },
+      "metadata": {
+        "severity": "High",
+        "priority": "P4",
+        "status": "Resolved",
+        "assigned_team": "Team-5",
+        "resolution_time": 48
+      },
+      "description": "Scheduled maintenance required for Data infrastructure supporting Manufacturing applications. Backend team to coordinate the effort."
+    },
+    {
+      "id": "35093698-dc91-49c7-8994-3259fd501a88",
+      "timestamp": "2025-10-08T17:23:52.855392",
+      "domain": {
+        "main_category": "Applications",
+        "sub_category": "Microservices",
+        "confidence_score": 0.87
+      },
+      "line_of_business": {
+        "main_category": "Manufacturing",
+        "sub_category": "Supply Chain",
+        "confidence_score": 0.8
+      },
+      "technical": {
+        "main_category": "Data",
+        "sub_category": "SQL",
+        "confidence_score": 0.9
+      },
+      "metadata": {
+        "severity": "Medium",
+        "priority": "P1",
+        "status": "Under Review",
+        "assigned_team": "Team-2",
+        "resolution_time": 50
+      },
+      "description": "Security audit identified potential risks in Applications systems used by Manufacturing. Data team implementing recommended fixes."
+    },
+    {
+      "id": "1850c051-1a28-4b1e-988a-ab82eb9ddfd7",
+      "timestamp": "2025-10-11T14:55:44.855414",
+      "domain": {
+        "main_category": "Data",
+        "sub_category": "ETL",
+        "confidence_score": 0.92
+      },
+      "line_of_business": {
+        "main_category": "Technology",
+        "sub_category": "Software Development",
+        "confidence_score": 1.0
+      },
+      "technical": {
+        "main_category": "Infrastructure",
+        "sub_category": "Docker",
+        "confidence_score": 0.94
+      },
+      "metadata": {
+        "severity": "Critical",
+        "priority": "P4",
+        "status": "In Progress",
+        "assigned_team": "Team-4",
+        "resolution_time": null
+      },
+      "description": "Issue reported in Data system affecting Technology operations. Technical investigation reveals Infrastructure-related root cause."
+    },
+    {
+      "id": "f6d19cfb-eaf5-4995-95ef-cbd0a1386bdc",
+      "timestamp": "2025-10-25T13:55:39.855439",
+      "domain": {
+        "main_category": "Operations",
+        "sub_category": "Deployment",
+        "confidence_score": 0.95
+      },
+      "line_of_business": {
+        "main_category": "Technology",
+        "sub_category": "Cloud Services",
+        "confidence_score": 0.81
+      },
+      "technical": {
+        "main_category": "Frontend",
+        "sub_category": "Mobile",
+        "confidence_score": 0.92
+      },
+      "metadata": {
+        "severity": "Critical",
+        "priority": "P3",
+        "status": "Open",
+        "assigned_team": "Team-5",
+        "resolution_time": null
+      },
+      "description": "Critical alert from Operations monitoring system impacting Technology services. Requires immediate Frontend team intervention."
+    },
+    {
+      "id": "15b41109-2fd4-4a57-b435-d8ce66fabac8",
+      "timestamp": "2025-10-28T15:40:19.855458",
+      "domain": {
+        "main_category": "Data",
+        "sub_category": "Data Lakes",
+        "confidence_score": 0.72
+      },
+      "line_of_business": {
+        "main_category": "Manufacturing",
+        "sub_category": "Production",
+        "confidence_score": 0.9
+      },
+      "technical": {
+        "main_category": "Infrastructure",
+        "sub_category": "Kubernetes",
+        "confidence_score": 0.93
+      },
+      "metadata": {
+        "severity": "Low",
+        "priority": "P1",
+        "status": "Closed",
+        "assigned_team": "Team-4",
+        "resolution_time": 38
+      },
+      "description": "Manufacturing team reported degraded performance in Data components. Infrastructure team investigating the underlying cause."
+    },
+    {
+      "id": "037fe186-9aa7-4f6a-8729-5efb403d3b8f",
+      "timestamp": "2025-10-24T06:29:12.855475",
+      "domain": {
+        "main_category": "Security",
+        "sub_category": "Network Security",
+        "confidence_score": 0.94
+      },
+      "line_of_business": {
+        "main_category": "Healthcare",
+        "sub_category": "Lab Services",
+        "confidence_score": 0.94
+      },
+      "technical": {
+        "main_category": "Backend",
+        "sub_category": "Databases",
+        "confidence_score": 0.95
+      },
+      "metadata": {
+        "severity": "Medium",
+        "priority": "P4",
+        "status": "Under Review",
+        "assigned_team": "Team-2",
+        "resolution_time": 37
+      },
+      "description": "Healthcare team reported degraded performance in Security components. Backend team investigating the underlying cause."
+    },
+    {
+      "id": "76ec0217-4f8f-492d-99f3-f1248893d123",
+      "timestamp": "2025-10-26T18:38:26.855492",
+      "domain": {
+        "main_category": "Infrastructure",
+        "sub_category": "On-Premise",
+        "confidence_score": 0.78
+      },
+      "line_of_business": {
+        "main_category": "Finance",
+        "sub_category": "Investment",
+        "confidence_score": 0.71
+      },
+      "technical": {
+        "main_category": "Infrastructure",
+        "sub_category": "GCP",
+        "confidence_score": 0.83
+      },
+      "metadata": {
+        "severity": "Low",
+        "priority": "P3",
+        "status": "Closed",
+        "assigned_team": "Team-5",
+        "resolution_time": 15
+      },
+      "description": "Critical alert from Infrastructure monitoring system impacting Finance services. Requires immediate Infrastructure team intervention."
+    },
+    {
+      "id": "a62f3eef-6359-4750-a468-45654169c6c4",
+      "timestamp": "2025-10-24T15:05:34.855508",
+      "domain": {
+        "main_category": "Infrastructure",
+        "sub_category": "Storage",
+        "confidence_score": 0.84
+      },
+      "line_of_business": {
+        "main_category": "Finance",
+        "sub_category": "Investment",
+        "confidence_score": 0.8
+      },
+      "technical": {
+        "main_category": "Infrastructure",
+        "sub_category": "GCP",
+        "confidence_score": 0.89
+      },
+      "metadata": {
+        "severity": "Critical",
+        "priority": "P2",
+        "status": "Open",
+        "assigned_team": "Team-2",
+        "resolution_time": 40
+      },
+      "description": "Finance team reported degraded performance in Infrastructure components. Infrastructure team investigating the underlying cause."
+    },
+    {
+      "id": "0649ca8a-c781-4bb8-9581-4f281f7b3eab",
+      "timestamp": "2025-10-28T09:26:24.855525",
+      "domain": {
+        "main_category": "Applications",
+        "sub_category": "Microservices",
+        "confidence_score": 0.7
+      },
+      "line_of_business": {
+        "main_category": "Healthcare",
+        "sub_category": "Lab Services",
+        "confidence_score": 0.94
+      },
+      "technical": {
+        "main_category": "Backend",
+        "sub_category": "Microservices",
+        "confidence_score": 0.75
+      },
+      "metadata": {
+        "severity": "Critical",
+        "priority": "P2",
+        "status": "Open",
+        "assigned_team": "Team-5",
+        "resolution_time": null
+      },
+      "description": "Issue reported in Applications system affecting Healthcare operations. Technical investigation reveals Backend-related root cause."
+    },
+    {
+      "id": "3c3f35ac-766e-44ce-8d5c-04f65a2f6c69",
+      "timestamp": "2025-11-04T19:14:58.855541",
+      "domain": {
+        "main_category": "Applications",
+        "sub_category": "Web Apps",
+        "confidence_score": 0.79
+      },
+      "line_of_business": {
+        "main_category": "Manufacturing",
+        "sub_category": "Production",
+        "confidence_score": 0.76
+      },
+      "technical": {
+        "main_category": "Data",
+        "sub_category": "NoSQL",
+        "confidence_score": 0.93
+      },
+      "metadata": {
+        "severity": "High",
+        "priority": "P4",
+        "status": "Under Review",
+        "assigned_team": "Team-1",
+        "resolution_time": 49
+      },
+      "description": "Security audit identified potential risks in Applications systems used by Manufacturing. Data team implementing recommended fixes."
+    },
+    {
+      "id": "664637ef-ba06-4362-bbd3-bf251a4a14a2",
+      "timestamp": "2025-10-29T13:22:21.855559",
+      "domain": {
+        "main_category": "Security",
+        "sub_category": "Access Control",
+        "confidence_score": 0.73
+      },
+      "line_of_business": {
+        "main_category": "Retail",
+        "sub_category": "Point of Sale",
+        "confidence_score": 0.8
+      },
+      "technical": {
+        "main_category": "Backend",
+        "sub_category": "Microservices",
+        "confidence_score": 0.8
+      },
+      "metadata": {
+        "severity": "High",
+        "priority": "P4",
+        "status": "In Progress",
+        "assigned_team": "Team-4",
+        "resolution_time": 50
+      },
+      "description": "Security audit identified potential risks in Security systems used by Retail. Backend team implementing recommended fixes."
+    },
+    {
+      "id": "45ee35bd-9554-4a4b-9aba-eedf825f301b",
+      "timestamp": "2025-10-20T20:37:34.855578",
+      "domain": {
+        "main_category": "Infrastructure",
+        "sub_category": "Storage",
+        "confidence_score": 0.88
+      },
+      "line_of_business": {
+        "main_category": "Healthcare",
+        "sub_category": "Insurance Claims",
+        "confidence_score": 0.75
+      },
+      "technical": {
+        "main_category": "Backend",
+        "sub_category": "Microservices",
+        "confidence_score": 0.88
+      },
+      "metadata": {
+        "severity": "Critical",
+        "priority": "P2",
+        "status": "In Progress",
+        "assigned_team": "Team-4",
+        "resolution_time": 69
+      },
+      "description": "Healthcare team reported degraded performance in Infrastructure components. Backend team investigating the underlying cause."
+    },
+    {
+      "id": "36a0172b-8988-452b-8508-b14a5b8bdaa5",
+      "timestamp": "2025-10-05T23:37:06.855596",
+      "domain": {
+        "main_category": "Applications",
+        "sub_category": "Microservices",
+        "confidence_score": 0.8
+      },
+      "line_of_business": {
+        "main_category": "Retail",
+        "sub_category": "E-commerce",
+        "confidence_score": 0.92
+      },
+      "technical": {
+        "main_category": "Data",
+        "sub_category": "NoSQL",
+        "confidence_score": 0.91
+      },
+      "metadata": {
+        "severity": "Medium",
+        "priority": "P1",
+        "status": "Open",
+        "assigned_team": "Team-1",
+        "resolution_time": 67
+      },
+      "description": "Issue reported in Applications system affecting Retail operations. Technical investigation reveals Data-related root cause."
+    },
+    {
+      "id": "88089633-dc96-4d24-9ca1-b59abf477c8f",
+      "timestamp": "2025-10-11T21:51:15.855620",
+      "domain": {
+        "main_category": "Operations",
+        "sub_category": "Deployment",
+        "confidence_score": 0.77
+      },
+      "line_of_business": {
+        "main_category": "Healthcare",
+        "sub_category": "Lab Services",
+        "confidence_score": 0.93
+      },
+      "technical": {
+        "main_category": "Frontend",
+        "sub_category": "Vue",
+        "confidence_score": 0.88
+      },
+      "metadata": {
+        "severity": "Low",
+        "priority": "P3",
+        "status": "Open",
+        "assigned_team": "Team-1",
+        "resolution_time": 32
+      },
+      "description": "Critical alert from Operations monitoring system impacting Healthcare services. Requires immediate Frontend team intervention."
+    },
+    {
+      "id": "f7ac7b12-838f-479e-abd2-bdabc3b32d86",
+      "timestamp": "2025-10-17T04:45:16.855637",
+      "domain": {
+        "main_category": "Operations",
+        "sub_category": "Recovery",
+        "confidence_score": 0.86
+      },
+      "line_of_business": {
+        "main_category": "Finance",
+        "sub_category": "Banking",
+        "confidence_score": 0.83
+      },
+      "technical": {
+        "main_category": "Infrastructure",
+        "sub_category": "Azure",
+        "confidence_score": 0.84
+      },
+      "metadata": {
+        "severity": "Medium",
+        "priority": "P1",
+        "status": "In Progress",
+        "assigned_team": "Team-3",
+        "resolution_time": 20
+      },
+      "description": "Finance team reported degraded performance in Operations components. Infrastructure team investigating the underlying cause."
+    },
+    {
+      "id": "71c9aff1-89ef-4efa-9626-c59026f324fb",
+      "timestamp": "2025-10-26T09:29:01.855657",
+      "domain": {
+        "main_category": "Applications",
+        "sub_category": "Microservices",
+        "confidence_score": 0.76
+      },
+      "line_of_business": {
+        "main_category": "Technology",
+        "sub_category": "Support",
+        "confidence_score": 0.91
+      },
+      "technical": {
+        "main_category": "Backend",
+        "sub_category": "Microservices",
+        "confidence_score": 0.92
+      },
+      "metadata": {
+        "severity": "Critical",
+        "priority": "P2",
+        "status": "Under Review",
+        "assigned_team": "Team-2",
+        "resolution_time": null
+      },
+      "description": "Critical alert from Applications monitoring system impacting Technology services. Requires immediate Backend team intervention."
+    },
+    {
+      "id": "370b4510-0b03-4a47-871b-979c78cbbbf1",
+      "timestamp": "2025-10-24T01:33:09.855681",
+      "domain": {
+        "main_category": "Infrastructure",
+        "sub_category": "Servers",
+        "confidence_score": 0.72
+      },
+      "line_of_business": {
+        "main_category": "Retail",
+        "sub_category": "Point of Sale",
+        "confidence_score": 0.73
+      },
+      "technical": {
+        "main_category": "Infrastructure",
+        "sub_category": "Kubernetes",
+        "confidence_score": 0.73
+      },
+      "metadata": {
+        "severity": "High",
+        "priority": "P2",
+        "status": "In Progress",
+        "assigned_team": "Team-2",
+        "resolution_time": 50
+      },
+      "description": "Scheduled maintenance required for Infrastructure infrastructure supporting Retail applications. Infrastructure team to coordinate the effort."
+    },
+    {
+      "id": "74661fb7-6085-4673-bfc0-731974baec3b",
+      "timestamp": "2025-10-28T16:07:49.855705",
+      "domain": {
+        "main_category": "Applications",
+        "sub_category": "Web Apps",
+        "confidence_score": 0.96
+      },
+      "line_of_business": {
+        "main_category": "Manufacturing",
+        "sub_category": "Production",
+        "confidence_score": 0.74
+      },
+      "technical": {
+        "main_category": "Data",
+        "sub_category": "NoSQL",
+        "confidence_score": 0.72
+      },
+      "metadata": {
+        "severity": "Medium",
+        "priority": "P1",
+        "status": "In Progress",
+        "assigned_team": "Team-2",
+        "resolution_time": 57
+      },
+      "description": "Critical alert from Applications monitoring system impacting Manufacturing services. Requires immediate Data team intervention."
+    },
+    {
+      "id": "daadeb31-f885-4856-90cb-27a3806a4d77",
+      "timestamp": "2025-10-23T02:13:10.855729",
+      "domain": {
+        "main_category": "Operations",
+        "sub_category": "Backup",
+        "confidence_score": 0.81
+      },
+      "line_of_business": {
+        "main_category": "Healthcare",
+        "sub_category": "Pharmacy",
+        "confidence_score": 0.89
+      },
+      "technical": {
+        "main_category": "Security",
+        "sub_category": "Encryption",
+        "confidence_score": 0.9
+      },
+      "metadata": {
+        "severity": "Critical",
+        "priority": "P4",
+        "status": "Resolved",
+        "assigned_team": "Team-2",
+        "resolution_time": null
+      },
+      "description": "Security audit identified potential risks in Operations systems used by Healthcare. Security team implementing recommended fixes."
+    },
+    {
+      "id": "954900b7-f303-49c6-8415-5e2053741300",
+      "timestamp": "2025-10-13T12:50:00.855753",
+      "domain": {
+        "main_category": "Infrastructure",
+        "sub_category": "Storage",
+        "confidence_score": 0.82
+      },
+      "line_of_business": {
+        "main_category": "Finance",
+        "sub_category": "Investment",
+        "confidence_score": 0.89
+      },
+      "technical": {
+        "main_category": "Backend",
+        "sub_category": "Authentication",
+        "confidence_score": 0.94
+      },
+      "metadata": {
+        "severity": "Low",
+        "priority": "P1",
+        "status": "Resolved",
+        "assigned_team": "Team-2",
+        "resolution_time": 59
+      },
+      "description": "Finance team reported degraded performance in Infrastructure components. Backend team investigating the underlying cause."
+    },
+    {
+      "id": "4a528990-81ae-4559-b8e8-4f4b5238edc7",
+      "timestamp": "2025-10-31T13:05:42.856007",
+      "domain": {
+        "main_category": "Applications",
+        "sub_category": "Web Apps",
+        "confidence_score": 0.96
+      },
+      "line_of_business": {
+        "main_category": "Healthcare",
+        "sub_category": "Lab Services",
+        "confidence_score": 0.86
+      },
+      "technical": {
+        "main_category": "Security",
+        "sub_category": "IAM",
+        "confidence_score": 0.87
+      },
+      "metadata": {
+        "severity": "High",
+        "priority": "P1",
+        "status": "Resolved",
+        "assigned_team": "Team-4",
+        "resolution_time": 69
+      },
+      "description": "Healthcare team reported degraded performance in Applications components. Security team investigating the underlying cause."
+    },
+    {
+      "id": "6b010030-2764-492d-9846-3bae5ee2bade",
+      "timestamp": "2025-10-10T01:27:57.856284",
+      "domain": {
+        "main_category": "Infrastructure",
+        "sub_category": "On-Premise",
+        "confidence_score": 0.86
+      },
+      "line_of_business": {
+        "main_category": "Technology",
+        "sub_category": "Cloud Services",
+        "confidence_score": 0.9
+      },
+      "technical": {
+        "main_category": "Infrastructure",
+        "sub_category": "GCP",
+        "confidence_score": 0.72
+      },
+      "metadata": {
+        "severity": "Medium",
+        "priority": "P3",
+        "status": "Closed",
+        "assigned_team": "Team-4",
+        "resolution_time": 72
+      },
+      "description": "Security audit identified potential risks in Infrastructure systems used by Technology. Infrastructure team implementing recommended fixes."
+    },
+    {
+      "id": "b58a233c-d11a-4aab-a32b-d5902bf64228",
+      "timestamp": "2025-10-19T01:21:02.856358",
+      "domain": {
+        "main_category": "Data",
+        "sub_category": "Data Lakes",
+        "confidence_score": 0.72
+      },
+      "line_of_business": {
+        "main_category": "Healthcare",
+        "sub_category": "Medical Records",
+        "confidence_score": 0.7
+      },
+      "technical": {
+        "main_category": "Infrastructure",
+        "sub_category": "Kubernetes",
+        "confidence_score": 0.93
+      },
+      "metadata": {
+        "severity": "Medium",
+        "priority": "P1",
+        "status": "Resolved",
+        "assigned_team": "Team-2",
+        "resolution_time": null
+      },
+      "description": "Issue reported in Data system affecting Healthcare operations. Technical investigation reveals Infrastructure-related root cause."
+    },
+    {
+      "id": "39f9a9bc-408f-4f01-88a3-8759bfcee0db",
+      "timestamp": "2025-10-20T04:54:34.856401",
+      "domain": {
+        "main_category": "Operations",
+        "sub_category": "Recovery",
+        "confidence_score": 0.87
+      },
+      "line_of_business": {
+        "main_category": "Finance",
+        "sub_category": "Banking",
+        "confidence_score": 0.83
+      },
+      "technical": {
+        "main_category": "Backend",
+        "sub_category": "Databases",
+        "confidence_score": 0.89
+      },
+      "metadata": {
+        "severity": "Low",
+        "priority": "P1",
+        "status": "Under Review",
+        "assigned_team": "Team-3",
+        "resolution_time": 28
+      },
+      "description": "Issue reported in Operations system affecting Finance operations. Technical investigation reveals Backend-related root cause."
+    },
+    {
+      "id": "a6bf64fa-35e8-4305-b32e-cbf7f3e56283",
+      "timestamp": "2025-11-03T17:19:13.856442",
+      "domain": {
+        "main_category": "Security",
+        "sub_category": "Authentication",
+        "confidence_score": 0.95
+      },
+      "line_of_business": {
+        "main_category": "Healthcare",
+        "sub_category": "Pharmacy",
+        "confidence_score": 0.93
+      },
+      "technical": {
+        "main_category": "Data",
+        "sub_category": "ETL",
+        "confidence_score": 0.74
+      },
+      "metadata": {
+        "severity": "Critical",
+        "priority": "P4",
+        "status": "Resolved",
+        "assigned_team": "Team-5",
+        "resolution_time": 32
+      },
+      "description": "Security audit identified potential risks in Security systems used by Healthcare. Data team implementing recommended fixes."
+    },
+    {
+      "id": "ea769362-c761-4715-8926-ae7aab4444bb",
+      "timestamp": "2025-10-13T08:30:38.856491",
+      "domain": {
+        "main_category": "Infrastructure",
+        "sub_category": "On-Premise",
+        "confidence_score": 0.83
+      },
+      "line_of_business": {
+        "main_category": "Healthcare",
+        "sub_category": "Insurance Claims",
+        "confidence_score": 0.82
+      },
+      "technical": {
+        "main_category": "Frontend",
+        "sub_category": "Vue",
+        "confidence_score": 0.81
+      },
+      "metadata": {
+        "severity": "Critical",
+        "priority": "P4",
+        "status": "Under Review",
+        "assigned_team": "Team-2",
+        "resolution_time": 71
+      },
+      "description": "Scheduled maintenance required for Infrastructure infrastructure supporting Healthcare applications. Frontend team to coordinate the effort."
+    },
+    {
+      "id": "f3935ddf-bdf4-4f4e-ab00-92a05a12a15e",
+      "timestamp": "2025-10-23T14:16:33.856574",
+      "domain": {
+        "main_category": "Security",
+        "sub_category": "Compliance",
+        "confidence_score": 0.97
+      },
+      "line_of_business": {
+        "main_category": "Technology",
+        "sub_category": "IT Services",
+        "confidence_score": 0.96
+      },
+      "technical": {
+        "main_category": "Data",
+        "sub_category": "Analytics",
+        "confidence_score": 0.76
+      },
+      "metadata": {
+        "severity": "Critical",
+        "priority": "P1",
+        "status": "Closed",
+        "assigned_team": "Team-2",
+        "resolution_time": 48
+      },
+      "description": "Security audit identified potential risks in Security systems used by Technology. Data team implementing recommended fixes."
+    },
+    {
+      "id": "4474fce2-914f-420a-84c1-c4b5bdf3585a",
+      "timestamp": "2025-10-05T04:54:27.856611",
+      "domain": {
+        "main_category": "Security",
+        "sub_category": "Authentication",
+        "confidence_score": 0.73
+      },
+      "line_of_business": {
+        "main_category": "Technology",
+        "sub_category": "Support",
+        "confidence_score": 0.98
+      },
+      "technical": {
+        "main_category": "Infrastructure",
+        "sub_category": "Docker",
+        "confidence_score": 0.91
+      },
+      "metadata": {
+        "severity": "High",
+        "priority": "P4",
+        "status": "Closed",
+        "assigned_team": "Team-5",
+        "resolution_time": 52
+      },
+      "description": "Security audit identified potential risks in Security systems used by Technology. Infrastructure team implementing recommended fixes."
+    },
+    {
+      "id": "eb57203c-bea1-45fa-bfe0-0eb85cb3170b",
+      "timestamp": "2025-10-11T23:20:44.856650",
+      "domain": {
+        "main_category": "Infrastructure",
+        "sub_category": "Cloud",
+        "confidence_score": 0.89
+      },
+      "line_of_business": {
+        "main_category": "Healthcare",
+        "sub_category": "Patient Care",
+        "confidence_score": 0.73
+      },
+      "technical": {
+        "main_category": "Backend",
+        "sub_category": "Microservices",
+        "confidence_score": 0.85
+      },
+      "metadata": {
+        "severity": "Critical",
+        "priority": "P2",
+        "status": "Open",
+        "assigned_team": "Team-3",
+        "resolution_time": 39
+      },
+      "description": "Security audit identified potential risks in Infrastructure systems used by Healthcare. Backend team implementing recommended fixes."
+    },
+    {
+      "id": "133f6065-a4f8-4f7d-8622-f87a6294441d",
+      "timestamp": "2025-11-02T16:56:30.856695",
+      "domain": {
+        "main_category": "Applications",
+        "sub_category": "Desktop Apps",
+        "confidence_score": 0.74
+      },
+      "line_of_business": {
+        "main_category": "Technology",
+        "sub_category": "Cloud Services",
+        "confidence_score": 0.76
+      },
+      "technical": {
+        "main_category": "Security",
+        "sub_category": "IAM",
+        "confidence_score": 0.89
+      },
+      "metadata": {
+        "severity": "High",
+        "priority": "P1",
+        "status": "Resolved",
+        "assigned_team": "Team-5",
+        "resolution_time": 1
+      },
+      "description": "Scheduled maintenance required for Applications infrastructure supporting Technology applications. Security team to coordinate the effort."
+    },
+    {
+      "id": "88c5d6a1-9221-45dc-ae6a-5950988f9beb",
+      "timestamp": "2025-10-29T18:39:30.856734",
+      "domain": {
+        "main_category": "Data",
+        "sub_category": "Data Lakes",
+        "confidence_score": 0.92
+      },
+      "line_of_business": {
+        "main_category": "Technology",
+        "sub_category": "Consulting",
+        "confidence_score": 0.78
+      },
+      "technical": {
+        "main_category": "Infrastructure",
+        "sub_category": "Kubernetes",
+        "confidence_score": 0.94
+      },
+      "metadata": {
+        "severity": "Low",
+        "priority": "P1",
+        "status": "Under Review",
+        "assigned_team": "Team-3",
+        "resolution_time": null
+      },
+      "description": "Issue reported in Data system affecting Technology operations. Technical investigation reveals Infrastructure-related root cause."
+    },
+    {
+      "id": "ab4f7b92-ae98-4f1c-bbf5-b15d839e37b0",
+      "timestamp": "2025-10-26T01:10:13.856769",
+      "domain": {
+        "main_category": "Security",
+        "sub_category": "Access Control",
+        "confidence_score": 0.85
+      },
+      "line_of_business": {
+        "main_category": "Retail",
+        "sub_category": "Customer Service",
+        "confidence_score": 0.82
+      },
+      "technical": {
+        "main_category": "Data",
+        "sub_category": "ETL",
+        "confidence_score": 0.87
+      },
+      "metadata": {
+        "severity": "Critical",
+        "priority": "P4",
+        "status": "Resolved",
+        "assigned_team": "Team-4",
+        "resolution_time": 65
+      },
+      "description": "Critical alert from Security monitoring system impacting Retail services. Requires immediate Data team intervention."
+    },
+    {
+      "id": "ef7058e0-cde0-45a3-a4ec-f7ebd7d3223f",
+      "timestamp": "2025-10-10T07:54:27.856818",
+      "domain": {
+        "main_category": "Operations",
+        "sub_category": "Maintenance",
+        "confidence_score": 0.94
+      },
+      "line_of_business": {
+        "main_category": "Manufacturing",
+        "sub_category": "Supply Chain",
+        "confidence_score": 0.76
+      },
+      "technical": {
+        "main_category": "Data",
+        "sub_category": "SQL",
+        "confidence_score": 0.75
+      },
+      "metadata": {
+        "severity": "High",
+        "priority": "P3",
+        "status": "Closed",
+        "assigned_team": "Team-1",
+        "resolution_time": null
+      },
+      "description": "Security audit identified potential risks in Operations systems used by Manufacturing. Data team implementing recommended fixes."
+    }
+  ]
+}

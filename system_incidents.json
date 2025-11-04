@@ -1,0 +1,2129 @@
+{
+  "metadata": {
+    "generated_at": "2025-11-04T01:19:49.217783",
+    "record_count": 50,
+    "version": "1.0"
+  },
+  "incidents": [
+    {
+      "incident_id": "50cdb8eb-9efc-4ac8-9ae0-0faec8a8fff5",
+      "correlation_id": "4352e3ec3b57",
+      "resource_id": "/subscriptions/f07a68ba-7c99-41ee-a4af-6328a952506a/resourceGroups/rg-key vault-eastus/providers/Microsoft.KeyVault/vaults/key vault-eastus-314",
+      "service": "Key Vault",
+      "region": "eastus",
+      "category": "System",
+      "severity": "low",
+      "status": "Resolved",
+      "detected_time": "2025-11-04T01:00:58.211566",
+      "resolution_time": "2025-11-04T01:28:58.211566",
+      "alert": {
+        "type": "Certificate Expiry",
+        "message": "System notification from key vault-eastus-314",
+        "metric_name": "SaturationShoebox",
+        "metric_value": 68.94,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "Certificate Get",
+        "source_ip": "226.203.31.172",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "f07a68ba-7c99-41ee-a4af-6328a952506a",
+        "resource_group": "rg-key vault-eastus"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.211836",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        },
+        {
+          "timestamp": "2025-11-04T01:24:49.211843",
+          "action": "Investigation Started",
+          "actor": "Security Team",
+          "details": "Investigating system incident in Key Vault"
+        },
+        {
+          "timestamp": "2025-11-04T01:49:49.211854",
+          "action": "Resolution",
+          "actor": "System Admin",
+          "details": "Incident resolved - Normal operation restored"
+        }
+      ]
+    },
+    {
+      "incident_id": "fdcfb5df-bbe5-4fdf-b5cb-d4a7debf0006",
+      "correlation_id": "6c0a547ebe39",
+      "resource_id": "/subscriptions/0aef6b68-9b9f-4971-915f-1854e87d0867/resourceGroups/rg-sql database-centralus/providers/Microsoft.SQLDatabase/vaults/sql database-centralus-446",
+      "service": "SQL Database",
+      "region": "centralus",
+      "category": "Performance",
+      "severity": "medium",
+      "status": "Resolved",
+      "detected_time": "2025-11-04T00:25:22.211888",
+      "resolution_time": "2025-11-04T03:19:22.211888",
+      "alert": {
+        "type": "Backup Failed",
+        "message": "Memory pressure detected in sql database-centralus-446",
+        "metric_name": "deadlock",
+        "metric_value": 52.53,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "Failover",
+        "source_ip": "249.149.167.118",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "0aef6b68-9b9f-4971-915f-1854e87d0867",
+        "resource_group": "rg-sql database-centralus"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.212010",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        },
+        {
+          "timestamp": "2025-11-04T01:24:49.212016",
+          "action": "Investigation Started",
+          "actor": "Security Team",
+          "details": "Investigating performance incident in SQL Database"
+        },
+        {
+          "timestamp": "2025-11-04T01:49:49.212026",
+          "action": "Resolution",
+          "actor": "System Admin",
+          "details": "Incident resolved - Normal operation restored"
+        }
+      ]
+    },
+    {
+      "incident_id": "5f976a2d-4d3e-44e0-9ba9-5dc7803e8b41",
+      "correlation_id": "c9cf90795f0d",
+      "resource_id": "/subscriptions/327514a3-08f0-44ac-8c2f-5eda8a0e323a/resourceGroups/rg-sql database-eastus/providers/Microsoft.SQLDatabase/vaults/sql database-eastus-592",
+      "service": "SQL Database",
+      "region": "eastus",
+      "category": "Performance",
+      "severity": "medium",
+      "status": "Active",
+      "detected_time": "2025-11-04T01:07:58.212047",
+      "resolution_time": null,
+      "alert": {
+        "type": "Deadlock Detected",
+        "message": "Memory pressure detected in sql database-eastus-592",
+        "metric_name": "cpu_percent",
+        "metric_value": 69.54,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "Scale",
+        "source_ip": "227.34.208.238",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "327514a3-08f0-44ac-8c2f-5eda8a0e323a",
+        "resource_group": "rg-sql database-eastus"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.212133",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        }
+      ]
+    },
+    {
+      "incident_id": "730a10a2-f4ce-4597-8593-75b169bb2ac7",
+      "correlation_id": "a9209246e255",
+      "resource_id": "/subscriptions/ae7d5816-95c6-4d31-8c50-7391e8335412/resourceGroups/rg-key vault-northeurope/providers/Microsoft.KeyVault/vaults/key vault-northeurope-157",
+      "service": "Key Vault",
+      "region": "northeurope",
+      "category": "Security",
+      "severity": "medium",
+      "status": "Resolved",
+      "detected_time": "2025-11-04T01:09:41.212155",
+      "resolution_time": "2025-11-04T01:48:41.212155",
+      "alert": {
+        "type": "Access Denied",
+        "message": "SSL certificate expiring soon for key vault-northeurope-157",
+        "metric_name": "SaturationShoebox",
+        "metric_value": 91.85,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "Secret Get",
+        "source_ip": "25.217.17.250",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "ae7d5816-95c6-4d31-8c50-7391e8335412",
+        "resource_group": "rg-key vault-northeurope"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.212414",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        },
+        {
+          "timestamp": "2025-11-04T01:24:49.212445",
+          "action": "Investigation Started",
+          "actor": "Security Team",
+          "details": "Investigating security incident in Key Vault"
+        },
+        {
+          "timestamp": "2025-11-04T01:49:49.212469",
+          "action": "Resolution",
+          "actor": "System Admin",
+          "details": "Incident resolved - Normal operation restored"
+        }
+      ]
+    },
+    {
+      "incident_id": "be2d36bd-2ad8-4152-9d95-027d2b85f62b",
+      "correlation_id": "c5d7ed20880e",
+      "resource_id": "/subscriptions/a34dd24e-1cc0-40a6-8a54-910ef022ed78/resourceGroups/rg-app service-southeastasia/providers/Microsoft.AppService/vaults/app service-southeastasia-313",
+      "service": "App Service",
+      "region": "southeastasia",
+      "category": "Performance",
+      "severity": "low",
+      "status": "Active",
+      "detected_time": "2025-11-04T01:04:01.212526",
+      "resolution_time": null,
+      "alert": {
+        "type": "HTTP Server Errors",
+        "message": "Routine maintenance impact on app service-southeastasia-313",
+        "metric_name": "ResponseTime",
+        "metric_value": 54.9,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "WebSocket",
+        "source_ip": "42.17.7.13",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "a34dd24e-1cc0-40a6-8a54-910ef022ed78",
+        "resource_group": "rg-app service-southeastasia"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.213118",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        }
+      ]
+    },
+    {
+      "incident_id": "fac1af34-c6f1-4c5b-84b2-13682f01dfe7",
+      "correlation_id": "a03a3d9297c3",
+      "resource_id": "/subscriptions/4200c0e3-030c-4211-ac04-6c615a5e4739/resourceGroups/rg-app service-southeastasia/providers/Microsoft.AppService/vaults/app service-southeastasia-135",
+      "service": "App Service",
+      "region": "southeastasia",
+      "category": "Security",
+      "severity": "high",
+      "status": "Resolved",
+      "detected_time": "2025-11-04T01:19:10.213183",
+      "resolution_time": "2025-11-04T03:19:10.213183",
+      "alert": {
+        "type": "High Memory Usage",
+        "message": "Suspicious certificate operation detected in app service-southeastasia-135",
+        "metric_name": "CpuTime",
+        "metric_value": 60.25,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "HTTP POST",
+        "source_ip": "227.49.104.211",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "4200c0e3-030c-4211-ac04-6c615a5e4739",
+        "resource_group": "rg-app service-southeastasia"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.213462",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        },
+        {
+          "timestamp": "2025-11-04T01:24:49.213470",
+          "action": "Investigation Started",
+          "actor": "Security Team",
+          "details": "Investigating security incident in App Service"
+        },
+        {
+          "timestamp": "2025-11-04T01:49:49.213486",
+          "action": "Resolution",
+          "actor": "System Admin",
+          "details": "Incident resolved - Normal operation restored"
+        }
+      ]
+    },
+    {
+      "incident_id": "733773ed-0fed-412c-8a7d-5a13763664ca",
+      "correlation_id": "744b36d726e0",
+      "resource_id": "/subscriptions/b9e0ed31-40da-4011-9c1e-77d68fa5ea8c/resourceGroups/rg-key vault-northeurope/providers/Microsoft.KeyVault/vaults/key vault-northeurope-077",
+      "service": "Key Vault",
+      "region": "northeurope",
+      "category": "Security",
+      "severity": "low",
+      "status": "Resolved",
+      "detected_time": "2025-11-04T00:45:21.213523",
+      "resolution_time": "2025-11-04T02:27:21.213523",
+      "alert": {
+        "type": "Access Denied",
+        "message": "Routine security scan alerts for key vault-northeurope-077",
+        "metric_name": "ServiceApiLatency",
+        "metric_value": 76.77,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "Secret Get",
+        "source_ip": "16.44.192.42",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "b9e0ed31-40da-4011-9c1e-77d68fa5ea8c",
+        "resource_group": "rg-key vault-northeurope"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.213712",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        },
+        {
+          "timestamp": "2025-11-04T01:24:49.213724",
+          "action": "Investigation Started",
+          "actor": "Security Team",
+          "details": "Investigating security incident in Key Vault"
+        },
+        {
+          "timestamp": "2025-11-04T01:49:49.213737",
+          "action": "Resolution",
+          "actor": "System Admin",
+          "details": "Incident resolved - Normal operation restored"
+        }
+      ]
+    },
+    {
+      "incident_id": "c7799162-c9eb-432f-ae96-9caa1c1dd90f",
+      "correlation_id": "f4c0805aa796",
+      "resource_id": "/subscriptions/bb288251-2bdd-46db-adb5-67abdbfe8b36/resourceGroups/rg-key vault-westeurope/providers/Microsoft.KeyVault/vaults/key vault-westeurope-974",
+      "service": "Key Vault",
+      "region": "westeurope",
+      "category": "System",
+      "severity": "medium",
+      "status": "Resolved",
+      "detected_time": "2025-11-04T00:42:44.213774",
+      "resolution_time": "2025-11-04T02:47:44.213774",
+      "alert": {
+        "type": "Network Issues",
+        "message": "Backup delay detected for key vault-westeurope-974",
+        "metric_name": "SaturationShoebox",
+        "metric_value": 93.4,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "Certificate Get",
+        "source_ip": "226.210.1.21",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "bb288251-2bdd-46db-adb5-67abdbfe8b36",
+        "resource_group": "rg-key vault-westeurope"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.213947",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        },
+        {
+          "timestamp": "2025-11-04T01:24:49.213960",
+          "action": "Investigation Started",
+          "actor": "Security Team",
+          "details": "Investigating system incident in Key Vault"
+        },
+        {
+          "timestamp": "2025-11-04T01:49:49.213979",
+          "action": "Resolution",
+          "actor": "System Admin",
+          "details": "Incident resolved - Normal operation restored"
+        }
+      ]
+    },
+    {
+      "incident_id": "eac6e75d-8eb3-4b9d-9b28-100b4bc873bb",
+      "correlation_id": "6e288e114621",
+      "resource_id": "/subscriptions/7be1c218-99fe-4e1e-95bc-fb79e4f4c571/resourceGroups/rg-sql database-westus2/providers/Microsoft.SQLDatabase/vaults/sql database-westus2-271",
+      "service": "SQL Database",
+      "region": "westus2",
+      "category": "Security",
+      "severity": "low",
+      "status": "Active",
+      "detected_time": "2025-11-04T01:17:58.214015",
+      "resolution_time": null,
+      "alert": {
+        "type": "High CPU Usage",
+        "message": "Routine security scan alerts for sql database-westus2-271",
+        "metric_name": "cpu_percent",
+        "metric_value": 55.8,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "Database CRUD",
+        "source_ip": "150.65.43.76",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "7be1c218-99fe-4e1e-95bc-fb79e4f4c571",
+        "resource_group": "rg-sql database-westus2"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.214167",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        }
+      ]
+    },
+    {
+      "incident_id": "6dbe8a6e-db57-4a62-a32b-ffe323a1b9f8",
+      "correlation_id": "1508f8f99d88",
+      "resource_id": "/subscriptions/50965e6e-69d6-4652-9596-5b49db01217a/resourceGroups/rg-sql database-centralus/providers/Microsoft.SQLDatabase/vaults/sql database-centralus-769",
+      "service": "SQL Database",
+      "region": "centralus",
+      "category": "System",
+      "severity": "medium",
+      "status": "Resolved",
+      "detected_time": "2025-11-04T01:12:43.214207",
+      "resolution_time": "2025-11-04T02:14:43.214207",
+      "alert": {
+        "type": "High CPU Usage",
+        "message": "System warnings from sql database-centralus-769",
+        "metric_name": "cpu_percent",
+        "metric_value": 59.01,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "Backup",
+        "source_ip": "56.160.36.63",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "50965e6e-69d6-4652-9596-5b49db01217a",
+        "resource_group": "rg-sql database-centralus"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.214393",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        },
+        {
+          "timestamp": "2025-11-04T01:24:49.214399",
+          "action": "Investigation Started",
+          "actor": "Security Team",
+          "details": "Investigating system incident in SQL Database"
+        },
+        {
+          "timestamp": "2025-11-04T01:49:49.214409",
+          "action": "Resolution",
+          "actor": "System Admin",
+          "details": "Incident resolved - Normal operation restored"
+        }
+      ]
+    },
+    {
+      "incident_id": "0f933e54-bbd1-4596-9028-93433891bafa",
+      "correlation_id": "c0da1c1838eb",
+      "resource_id": "/subscriptions/deed849a-7b94-4835-93e1-fef7c3e543c7/resourceGroups/rg-sql database-westus2/providers/Microsoft.SQLDatabase/vaults/sql database-westus2-452",
+      "service": "SQL Database",
+      "region": "westus2",
+      "category": "System",
+      "severity": "low",
+      "status": "Active",
+      "detected_time": "2025-11-04T01:17:27.214437",
+      "resolution_time": null,
+      "alert": {
+        "type": "Storage Space Low",
+        "message": "Routine system alert from sql database-westus2-452",
+        "metric_name": "cpu_percent",
+        "metric_value": 73.62,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "Backup",
+        "source_ip": "215.153.161.184",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "deed849a-7b94-4835-93e1-fef7c3e543c7",
+        "resource_group": "rg-sql database-westus2"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.214537",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        }
+      ]
+    },
+    {
+      "incident_id": "3dcd274e-6a09-4ac2-991f-b75accd6c88c",
+      "correlation_id": "6be99af31b39",
+      "resource_id": "/subscriptions/6dc6de88-d372-44fc-9585-3521d8be6e46/resourceGroups/rg-key vault-southeastasia/providers/Microsoft.KeyVault/vaults/key vault-southeastasia-278",
+      "service": "Key Vault",
+      "region": "southeastasia",
+      "category": "Performance",
+      "severity": "low",
+      "status": "Resolved",
+      "detected_time": "2025-11-04T00:46:59.214562",
+      "resolution_time": "2025-11-04T02:12:59.214562",
+      "alert": {
+        "type": "Certificate Expiry",
+        "message": "Minor performance deviation in key vault-southeastasia-278",
+        "metric_name": "SaturationShoebox",
+        "metric_value": 91.44,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "Key Verify",
+        "source_ip": "103.138.229.211",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "6dc6de88-d372-44fc-9585-3521d8be6e46",
+        "resource_group": "rg-key vault-southeastasia"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.214689",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        },
+        {
+          "timestamp": "2025-11-04T01:24:49.214695",
+          "action": "Investigation Started",
+          "actor": "Security Team",
+          "details": "Investigating performance incident in Key Vault"
+        },
+        {
+          "timestamp": "2025-11-04T01:49:49.214707",
+          "action": "Resolution",
+          "actor": "System Admin",
+          "details": "Incident resolved - Normal operation restored"
+        }
+      ]
+    },
+    {
+      "incident_id": "88b16a53-54e3-42be-bc43-8ca08dc071ec",
+      "correlation_id": "1b80398bab5f",
+      "resource_id": "/subscriptions/0d227413-cad7-4319-bfc9-b5b115369de3/resourceGroups/rg-app service-northeurope/providers/Microsoft.AppService/vaults/app service-northeurope-983",
+      "service": "App Service",
+      "region": "northeurope",
+      "category": "Performance",
+      "severity": "medium",
+      "status": "Active",
+      "detected_time": "2025-11-04T01:19:43.214734",
+      "resolution_time": null,
+      "alert": {
+        "type": "HTTP Server Errors",
+        "message": "High CPU utilization in app service-northeurope-983",
+        "metric_name": "Http5xx",
+        "metric_value": 65.95,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "WebSocket",
+        "source_ip": "104.44.98.58",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "0d227413-cad7-4319-bfc9-b5b115369de3",
+        "resource_group": "rg-app service-northeurope"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.214856",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        }
+      ]
+    },
+    {
+      "incident_id": "b577e114-ce40-41cd-b1e8-689345479bfa",
+      "correlation_id": "fbc5676d7c52",
+      "resource_id": "/subscriptions/c2bec619-4849-45a2-80a3-836595df863c/resourceGroups/rg-key vault-southeastasia/providers/Microsoft.KeyVault/vaults/key vault-southeastasia-785",
+      "service": "Key Vault",
+      "region": "southeastasia",
+      "category": "Security",
+      "severity": "low",
+      "status": "Resolved",
+      "detected_time": "2025-11-04T01:14:30.214878",
+      "resolution_time": "2025-11-04T02:57:30.214878",
+      "alert": {
+        "type": "Access Denied",
+        "message": "New IP address accessing key vault-southeastasia-785",
+        "metric_name": "AvailabilityResults",
+        "metric_value": 68.08,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "Key Sign",
+        "source_ip": "96.47.173.122",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "c2bec619-4849-45a2-80a3-836595df863c",
+        "resource_group": "rg-key vault-southeastasia"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.214996",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        },
+        {
+          "timestamp": "2025-11-04T01:24:49.214999",
+          "action": "Investigation Started",
+          "actor": "Security Team",
+          "details": "Investigating security incident in Key Vault"
+        },
+        {
+          "timestamp": "2025-11-04T01:49:49.215006",
+          "action": "Resolution",
+          "actor": "System Admin",
+          "details": "Incident resolved - Normal operation restored"
+        }
+      ]
+    },
+    {
+      "incident_id": "d3dacff4-33ce-44ae-909d-e65334c7418d",
+      "correlation_id": "765b09d84260",
+      "resource_id": "/subscriptions/05c448d3-aba3-4b7e-a96a-bbe0d7742228/resourceGroups/rg-key vault-eastus/providers/Microsoft.KeyVault/vaults/key vault-eastus-101",
+      "service": "Key Vault",
+      "region": "eastus",
+      "category": "System",
+      "severity": "high",
+      "status": "Active",
+      "detected_time": "2025-11-04T00:48:44.215023",
+      "resolution_time": null,
+      "alert": {
+        "type": "Crypto Operations Failed",
+        "message": "System crash detected in key vault-eastus-101",
+        "metric_name": "AvailabilityResults",
+        "metric_value": 82.1,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "Secret Get",
+        "source_ip": "32.36.171.254",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "05c448d3-aba3-4b7e-a96a-bbe0d7742228",
+        "resource_group": "rg-key vault-eastus"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.215102",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        }
+      ]
+    },
+    {
+      "incident_id": "15ceea9a-bd3c-4c75-bb26-aea10151c043",
+      "correlation_id": "52935ff49e46",
+      "resource_id": "/subscriptions/50d49979-06a2-45b7-8d89-19d4ed57bffd/resourceGroups/rg-key vault-westus2/providers/Microsoft.KeyVault/vaults/key vault-westus2-731",
+      "service": "Key Vault",
+      "region": "westus2",
+      "category": "Performance",
+      "severity": "low",
+      "status": "Resolved",
+      "detected_time": "2025-11-04T01:14:47.215121",
+      "resolution_time": "2025-11-04T04:04:47.215121",
+      "alert": {
+        "type": "Certificate Expiry",
+        "message": "Routine maintenance impact on key vault-westus2-731",
+        "metric_name": "ServiceApiLatency",
+        "metric_value": 68.68,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "Certificate Get",
+        "source_ip": "174.68.195.250",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "50d49979-06a2-45b7-8d89-19d4ed57bffd",
+        "resource_group": "rg-key vault-westus2"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.215233",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        },
+        {
+          "timestamp": "2025-11-04T01:24:49.215238",
+          "action": "Investigation Started",
+          "actor": "Security Team",
+          "details": "Investigating performance incident in Key Vault"
+        },
+        {
+          "timestamp": "2025-11-04T01:49:49.215248",
+          "action": "Resolution",
+          "actor": "System Admin",
+          "details": "Incident resolved - Normal operation restored"
+        }
+      ]
+    },
+    {
+      "incident_id": "35e74869-2e1b-45b2-b575-42189f24932e",
+      "correlation_id": "ed9c4147bace",
+      "resource_id": "/subscriptions/cbe071bc-d893-427f-a476-752e0dfc7e64/resourceGroups/rg-key vault-centralus/providers/Microsoft.KeyVault/vaults/key vault-centralus-914",
+      "service": "Key Vault",
+      "region": "centralus",
+      "category": "System",
+      "severity": "low",
+      "status": "Resolved",
+      "detected_time": "2025-11-04T00:20:04.215268",
+      "resolution_time": "2025-11-04T00:59:04.215268",
+      "alert": {
+        "type": "Access Denied",
+        "message": "System notification from key vault-centralus-914",
+        "metric_name": "ServiceApiLatency",
+        "metric_value": 83.47,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "Secret Get",
+        "source_ip": "75.78.106.74",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "cbe071bc-d893-427f-a476-752e0dfc7e64",
+        "resource_group": "rg-key vault-centralus"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.215358",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        },
+        {
+          "timestamp": "2025-11-04T01:24:49.215361",
+          "action": "Investigation Started",
+          "actor": "Security Team",
+          "details": "Investigating system incident in Key Vault"
+        },
+        {
+          "timestamp": "2025-11-04T01:49:49.215367",
+          "action": "Resolution",
+          "actor": "System Admin",
+          "details": "Incident resolved - Normal operation restored"
+        }
+      ]
+    },
+    {
+      "incident_id": "6773ef02-cd48-431a-8d0b-511b306356a6",
+      "correlation_id": "c6d39569d13e",
+      "resource_id": "/subscriptions/9bd92fc2-7cf6-4ab2-ac14-f661c86659f1/resourceGroups/rg-key vault-eastus/providers/Microsoft.KeyVault/vaults/key vault-eastus-317",
+      "service": "Key Vault",
+      "region": "eastus",
+      "category": "Performance",
+      "severity": "low",
+      "status": "Resolved",
+      "detected_time": "2025-11-04T00:55:22.215381",
+      "resolution_time": "2025-11-04T01:10:22.215381",
+      "alert": {
+        "type": "Certificate Expiry",
+        "message": "Slightly elevated response times in key vault-eastus-317",
+        "metric_name": "ServiceApiLatency",
+        "metric_value": 88.59,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "Key Verify",
+        "source_ip": "171.198.127.176",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "9bd92fc2-7cf6-4ab2-ac14-f661c86659f1",
+        "resource_group": "rg-key vault-eastus"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.215443",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        },
+        {
+          "timestamp": "2025-11-04T01:24:49.215447",
+          "action": "Investigation Started",
+          "actor": "Security Team",
+          "details": "Investigating performance incident in Key Vault"
+        },
+        {
+          "timestamp": "2025-11-04T01:49:49.215452",
+          "action": "Resolution",
+          "actor": "System Admin",
+          "details": "Incident resolved - Normal operation restored"
+        }
+      ]
+    },
+    {
+      "incident_id": "cd13b675-5dcc-4ca3-af88-e12105420fcd",
+      "correlation_id": "5a595cd796af",
+      "resource_id": "/subscriptions/ae3a9608-7751-4bb2-99d7-c05623558086/resourceGroups/rg-sql database-southeastasia/providers/Microsoft.SQLDatabase/vaults/sql database-southeastasia-933",
+      "service": "SQL Database",
+      "region": "southeastasia",
+      "category": "System",
+      "severity": "high",
+      "status": "Active",
+      "detected_time": "2025-11-04T00:23:17.215472",
+      "resolution_time": null,
+      "alert": {
+        "type": "Backup Failed",
+        "message": "Critical system component failure in sql database-southeastasia-933",
+        "metric_name": "dtu_consumption_percent",
+        "metric_value": 52.22,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "Backup",
+        "source_ip": "73.110.239.37",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "ae3a9608-7751-4bb2-99d7-c05623558086",
+        "resource_group": "rg-sql database-southeastasia"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.215529",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        }
+      ]
+    },
+    {
+      "incident_id": "5284dc23-a5e0-4f4e-b2ae-867619d90ae9",
+      "correlation_id": "6c00021b52d8",
+      "resource_id": "/subscriptions/bb38b460-5159-475e-9fdd-f18a042812a4/resourceGroups/rg-key vault-centralus/providers/Microsoft.KeyVault/vaults/key vault-centralus-898",
+      "service": "Key Vault",
+      "region": "centralus",
+      "category": "System",
+      "severity": "medium",
+      "status": "Active",
+      "detected_time": "2025-11-04T01:13:20.215539",
+      "resolution_time": null,
+      "alert": {
+        "type": "Access Denied",
+        "message": "Component degradation in key vault-centralus-898",
+        "metric_name": "SaturationShoebox",
+        "metric_value": 68.12,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "Key Verify",
+        "source_ip": "127.187.89.161",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "bb38b460-5159-475e-9fdd-f18a042812a4",
+        "resource_group": "rg-key vault-centralus"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.215595",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        }
+      ]
+    },
+    {
+      "incident_id": "a3709dbd-ca42-4936-ab3f-10b48b4d6ce6",
+      "correlation_id": "aa131653476c",
+      "resource_id": "/subscriptions/dbef7939-b6ec-4aea-bc5d-71b0480f847c/resourceGroups/rg-app service-northeurope/providers/Microsoft.AppService/vaults/app service-northeurope-228",
+      "service": "App Service",
+      "region": "northeurope",
+      "category": "Security",
+      "severity": "medium",
+      "status": "Resolved",
+      "detected_time": "2025-11-04T01:04:29.215607",
+      "resolution_time": "2025-11-04T01:38:29.215607",
+      "alert": {
+        "type": "High Memory Usage",
+        "message": "SSL certificate expiring soon for app service-northeurope-228",
+        "metric_name": "CpuTime",
+        "metric_value": 72.27,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "Custom Domain SSL",
+        "source_ip": "165.199.216.209",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "dbef7939-b6ec-4aea-bc5d-71b0480f847c",
+        "resource_group": "rg-app service-northeurope"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.215678",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        },
+        {
+          "timestamp": "2025-11-04T01:24:49.215681",
+          "action": "Investigation Started",
+          "actor": "Security Team",
+          "details": "Investigating security incident in App Service"
+        },
+        {
+          "timestamp": "2025-11-04T01:49:49.215686",
+          "action": "Resolution",
+          "actor": "System Admin",
+          "details": "Incident resolved - Normal operation restored"
+        }
+      ]
+    },
+    {
+      "incident_id": "45181d3b-f11b-43e8-8045-0004599e5694",
+      "correlation_id": "13f32c3013a2",
+      "resource_id": "/subscriptions/853bc819-62d1-4e38-aaab-36914c54718a/resourceGroups/rg-app service-southeastasia/providers/Microsoft.AppService/vaults/app service-southeastasia-863",
+      "service": "App Service",
+      "region": "southeastasia",
+      "category": "System",
+      "severity": "high",
+      "status": "Active",
+      "detected_time": "2025-11-04T00:58:51.215699",
+      "resolution_time": null,
+      "alert": {
+        "type": "High Memory Usage",
+        "message": "Data corruption identified in app service-southeastasia-863",
+        "metric_name": "MemoryWorkingSet",
+        "metric_value": 59.26,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "HTTP GET",
+        "source_ip": "15.182.55.61",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "853bc819-62d1-4e38-aaab-36914c54718a",
+        "resource_group": "rg-app service-southeastasia"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.215747",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        }
+      ]
+    },
+    {
+      "incident_id": "8b692d29-310c-4072-89ef-5d3d1de87b83",
+      "correlation_id": "cba2f41e5198",
+      "resource_id": "/subscriptions/23046a4c-d77d-4114-b1b0-ccb0438c8297/resourceGroups/rg-key vault-centralus/providers/Microsoft.KeyVault/vaults/key vault-centralus-506",
+      "service": "Key Vault",
+      "region": "centralus",
+      "category": "Security",
+      "severity": "medium",
+      "status": "Resolved",
+      "detected_time": "2025-11-04T01:18:19.215757",
+      "resolution_time": "2025-11-04T03:01:19.215757",
+      "alert": {
+        "type": "Certificate Expiry",
+        "message": "Service principal credentials expiring for key vault-centralus-506",
+        "metric_name": "ServiceApiLatency",
+        "metric_value": 70.46,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "Secret Get",
+        "source_ip": "80.171.190.169",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "23046a4c-d77d-4114-b1b0-ccb0438c8297",
+        "resource_group": "rg-key vault-centralus"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.215822",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        },
+        {
+          "timestamp": "2025-11-04T01:24:49.215826",
+          "action": "Investigation Started",
+          "actor": "Security Team",
+          "details": "Investigating security incident in Key Vault"
+        },
+        {
+          "timestamp": "2025-11-04T01:49:49.215834",
+          "action": "Resolution",
+          "actor": "System Admin",
+          "details": "Incident resolved - Normal operation restored"
+        }
+      ]
+    },
+    {
+      "incident_id": "91ce9b68-2e6c-49df-ab09-edc8fccbcf34",
+      "correlation_id": "4f6317f10322",
+      "resource_id": "/subscriptions/ed1107cd-847d-48cf-a1d7-8797aa9214b2/resourceGroups/rg-app service-westeurope/providers/Microsoft.AppService/vaults/app service-westeurope-562",
+      "service": "App Service",
+      "region": "westeurope",
+      "category": "System",
+      "severity": "medium",
+      "status": "Resolved",
+      "detected_time": "2025-11-04T01:07:17.215852",
+      "resolution_time": "2025-11-04T02:05:17.215852",
+      "alert": {
+        "type": "SSL Certificate Expiry",
+        "message": "Backup delay detected for app service-westeurope-562",
+        "metric_name": "MemoryWorkingSet",
+        "metric_value": 88.06,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "HTTP POST",
+        "source_ip": "201.175.45.179",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "ed1107cd-847d-48cf-a1d7-8797aa9214b2",
+        "resource_group": "rg-app service-westeurope"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.215951",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        },
+        {
+          "timestamp": "2025-11-04T01:24:49.215955",
+          "action": "Investigation Started",
+          "actor": "Security Team",
+          "details": "Investigating system incident in App Service"
+        },
+        {
+          "timestamp": "2025-11-04T01:49:49.215961",
+          "action": "Resolution",
+          "actor": "System Admin",
+          "details": "Incident resolved - Normal operation restored"
+        }
+      ]
+    },
+    {
+      "incident_id": "3c42e004-513f-4fe3-936b-8777df2d746c",
+      "correlation_id": "df1dceb21bdb",
+      "resource_id": "/subscriptions/57ec9a99-cabe-4b3b-a1dd-215fc47ea982/resourceGroups/rg-sql database-westus2/providers/Microsoft.SQLDatabase/vaults/sql database-westus2-500",
+      "service": "SQL Database",
+      "region": "westus2",
+      "category": "System",
+      "severity": "medium",
+      "status": "Active",
+      "detected_time": "2025-11-04T01:16:42.215973",
+      "resolution_time": null,
+      "alert": {
+        "type": "High CPU Usage",
+        "message": "Backup delay detected for sql database-westus2-500",
+        "metric_name": "dtu_consumption_percent",
+        "metric_value": 80.56,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "Backup",
+        "source_ip": "213.78.201.199",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "57ec9a99-cabe-4b3b-a1dd-215fc47ea982",
+        "resource_group": "rg-sql database-westus2"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.216030",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        }
+      ]
+    },
+    {
+      "incident_id": "c428ae15-8049-480c-ace4-bc77a5258611",
+      "correlation_id": "c739ec4bbea1",
+      "resource_id": "/subscriptions/22f679c2-a5e0-4bbf-8d31-8ff045bfd764/resourceGroups/rg-app service-westus2/providers/Microsoft.AppService/vaults/app service-westus2-875",
+      "service": "App Service",
+      "region": "westus2",
+      "category": "System",
+      "severity": "low",
+      "status": "Resolved",
+      "detected_time": "2025-11-04T00:55:38.216041",
+      "resolution_time": "2025-11-04T03:49:38.216041",
+      "alert": {
+        "type": "High Memory Usage",
+        "message": "System notification from app service-westus2-875",
+        "metric_name": "ResponseTime",
+        "metric_value": 52.42,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "WebSocket",
+        "source_ip": "197.103.57.58",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "22f679c2-a5e0-4bbf-8d31-8ff045bfd764",
+        "resource_group": "rg-app service-westus2"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.216106",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        },
+        {
+          "timestamp": "2025-11-04T01:24:49.216109",
+          "action": "Investigation Started",
+          "actor": "Security Team",
+          "details": "Investigating system incident in App Service"
+        },
+        {
+          "timestamp": "2025-11-04T01:49:49.216114",
+          "action": "Resolution",
+          "actor": "System Admin",
+          "details": "Incident resolved - Normal operation restored"
+        }
+      ]
+    },
+    {
+      "incident_id": "2493d84c-8e84-45dd-b42f-352b481ea618",
+      "correlation_id": "9e535ee5baae",
+      "resource_id": "/subscriptions/a0f50e56-3267-4ca0-ac63-f9e87b7537f2/resourceGroups/rg-app service-southeastasia/providers/Microsoft.AppService/vaults/app service-southeastasia-937",
+      "service": "App Service",
+      "region": "southeastasia",
+      "category": "Security",
+      "severity": "medium",
+      "status": "Resolved",
+      "detected_time": "2025-11-04T00:45:10.216130",
+      "resolution_time": "2025-11-04T02:20:10.216130",
+      "alert": {
+        "type": "HTTP Server Errors",
+        "message": "Unusual access pattern detected in app service-southeastasia-937",
+        "metric_name": "ResponseTime",
+        "metric_value": 70.87,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "Custom Domain SSL",
+        "source_ip": "47.34.166.9",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "a0f50e56-3267-4ca0-ac63-f9e87b7537f2",
+        "resource_group": "rg-app service-southeastasia"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.216190",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        },
+        {
+          "timestamp": "2025-11-04T01:24:49.216192",
+          "action": "Investigation Started",
+          "actor": "Security Team",
+          "details": "Investigating security incident in App Service"
+        },
+        {
+          "timestamp": "2025-11-04T01:49:49.216197",
+          "action": "Resolution",
+          "actor": "System Admin",
+          "details": "Incident resolved - Normal operation restored"
+        }
+      ]
+    },
+    {
+      "incident_id": "5bb01411-3ef9-40a6-a195-4ec6378e14cf",
+      "correlation_id": "b31838b918d4",
+      "resource_id": "/subscriptions/4be72102-cd8e-497f-ae48-ecdae9a0b686/resourceGroups/rg-key vault-westeurope/providers/Microsoft.KeyVault/vaults/key vault-westeurope-152",
+      "service": "Key Vault",
+      "region": "westeurope",
+      "category": "Performance",
+      "severity": "low",
+      "status": "Resolved",
+      "detected_time": "2025-11-04T01:16:41.216208",
+      "resolution_time": "2025-11-04T04:13:41.216208",
+      "alert": {
+        "type": "Network Issues",
+        "message": "Routine maintenance impact on key vault-westeurope-152",
+        "metric_name": "Authentication",
+        "metric_value": 96.87,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "Secret Get",
+        "source_ip": "86.21.134.115",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "4be72102-cd8e-497f-ae48-ecdae9a0b686",
+        "resource_group": "rg-key vault-westeurope"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.216267",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        },
+        {
+          "timestamp": "2025-11-04T01:24:49.216269",
+          "action": "Investigation Started",
+          "actor": "Security Team",
+          "details": "Investigating performance incident in Key Vault"
+        },
+        {
+          "timestamp": "2025-11-04T01:49:49.216274",
+          "action": "Resolution",
+          "actor": "System Admin",
+          "details": "Incident resolved - Normal operation restored"
+        }
+      ]
+    },
+    {
+      "incident_id": "9ba56bf0-6e6b-4e37-8505-b5ef9bae31ef",
+      "correlation_id": "bbdc1110ae90",
+      "resource_id": "/subscriptions/9d9b2a5f-8698-48ff-8e20-feb2021c532f/resourceGroups/rg-key vault-southeastasia/providers/Microsoft.KeyVault/vaults/key vault-southeastasia-221",
+      "service": "Key Vault",
+      "region": "southeastasia",
+      "category": "System",
+      "severity": "high",
+      "status": "Resolved",
+      "detected_time": "2025-11-04T00:41:28.216285",
+      "resolution_time": "2025-11-04T03:14:28.216285",
+      "alert": {
+        "type": "Access Denied",
+        "message": "Critical system component failure in key vault-southeastasia-221",
+        "metric_name": "ServiceApiLatency",
+        "metric_value": 82.79,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "Certificate Get",
+        "source_ip": "70.90.141.214",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "9d9b2a5f-8698-48ff-8e20-feb2021c532f",
+        "resource_group": "rg-key vault-southeastasia"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.216339",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        },
+        {
+          "timestamp": "2025-11-04T01:24:49.216342",
+          "action": "Investigation Started",
+          "actor": "Security Team",
+          "details": "Investigating system incident in Key Vault"
+        },
+        {
+          "timestamp": "2025-11-04T01:49:49.216347",
+          "action": "Resolution",
+          "actor": "System Admin",
+          "details": "Incident resolved - Normal operation restored"
+        }
+      ]
+    },
+    {
+      "incident_id": "d26075d3-e391-42ef-bf7c-501bdf8ead99",
+      "correlation_id": "70515ae9ecb7",
+      "resource_id": "/subscriptions/ba41005f-9168-402a-8533-5a05b9eef447/resourceGroups/rg-sql database-northeurope/providers/Microsoft.SQLDatabase/vaults/sql database-northeurope-923",
+      "service": "SQL Database",
+      "region": "northeurope",
+      "category": "System",
+      "severity": "low",
+      "status": "Resolved",
+      "detected_time": "2025-11-04T01:03:51.216358",
+      "resolution_time": "2025-11-04T03:04:51.216358",
+      "alert": {
+        "type": "Backup Failed",
+        "message": "Minor configuration drift in sql database-northeurope-923",
+        "metric_name": "storage_percent",
+        "metric_value": 55.95,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "Failover",
+        "source_ip": "60.175.96.128",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "ba41005f-9168-402a-8533-5a05b9eef447",
+        "resource_group": "rg-sql database-northeurope"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.216412",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        },
+        {
+          "timestamp": "2025-11-04T01:24:49.216415",
+          "action": "Investigation Started",
+          "actor": "Security Team",
+          "details": "Investigating system incident in SQL Database"
+        },
+        {
+          "timestamp": "2025-11-04T01:49:49.216419",
+          "action": "Resolution",
+          "actor": "System Admin",
+          "details": "Incident resolved - Normal operation restored"
+        }
+      ]
+    },
+    {
+      "incident_id": "f02d8167-d020-4c5e-8be5-dc11722d2095",
+      "correlation_id": "1f5739b17955",
+      "resource_id": "/subscriptions/43af6277-7243-42c3-8b1d-bb30650d5c63/resourceGroups/rg-sql database-westeurope/providers/Microsoft.SQLDatabase/vaults/sql database-westeurope-994",
+      "service": "SQL Database",
+      "region": "westeurope",
+      "category": "System",
+      "severity": "high",
+      "status": "Resolved",
+      "detected_time": "2025-11-04T00:52:01.216432",
+      "resolution_time": "2025-11-04T01:54:01.216432",
+      "alert": {
+        "type": "Deadlock Detected",
+        "message": "Data corruption identified in sql database-westeurope-994",
+        "metric_name": "dtu_consumption_percent",
+        "metric_value": 87.68,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "Database CRUD",
+        "source_ip": "186.72.107.240",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "43af6277-7243-42c3-8b1d-bb30650d5c63",
+        "resource_group": "rg-sql database-westeurope"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.216483",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        },
+        {
+          "timestamp": "2025-11-04T01:24:49.216486",
+          "action": "Investigation Started",
+          "actor": "Security Team",
+          "details": "Investigating system incident in SQL Database"
+        },
+        {
+          "timestamp": "2025-11-04T01:49:49.216491",
+          "action": "Resolution",
+          "actor": "System Admin",
+          "details": "Incident resolved - Normal operation restored"
+        }
+      ]
+    },
+    {
+      "incident_id": "de92bcc5-0a96-4c3e-8015-37f67061eb23",
+      "correlation_id": "0852392651f2",
+      "resource_id": "/subscriptions/f4782309-05d3-4203-94d1-0aedc0631da2/resourceGroups/rg-key vault-southeastasia/providers/Microsoft.KeyVault/vaults/key vault-southeastasia-681",
+      "service": "Key Vault",
+      "region": "southeastasia",
+      "category": "Security",
+      "severity": "high",
+      "status": "Resolved",
+      "detected_time": "2025-11-04T00:32:05.216502",
+      "resolution_time": "2025-11-04T01:46:05.216502",
+      "alert": {
+        "type": "Network Issues",
+        "message": "Potential data exfiltration attempt from key vault-southeastasia-681",
+        "metric_name": "ServiceApiLatency",
+        "metric_value": 67.09,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "Key Sign",
+        "source_ip": "91.241.2.243",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "f4782309-05d3-4203-94d1-0aedc0631da2",
+        "resource_group": "rg-key vault-southeastasia"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.216550",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        },
+        {
+          "timestamp": "2025-11-04T01:24:49.216553",
+          "action": "Investigation Started",
+          "actor": "Security Team",
+          "details": "Investigating security incident in Key Vault"
+        },
+        {
+          "timestamp": "2025-11-04T01:49:49.216557",
+          "action": "Resolution",
+          "actor": "System Admin",
+          "details": "Incident resolved - Normal operation restored"
+        }
+      ]
+    },
+    {
+      "incident_id": "031ae957-6e73-4155-90ee-bbba39ca5973",
+      "correlation_id": "a2fc212721f0",
+      "resource_id": "/subscriptions/57180bd7-c764-45b1-851e-2146f5cb4075/resourceGroups/rg-key vault-eastus/providers/Microsoft.KeyVault/vaults/key vault-eastus-313",
+      "service": "Key Vault",
+      "region": "eastus",
+      "category": "System",
+      "severity": "low",
+      "status": "Resolved",
+      "detected_time": "2025-11-04T00:24:25.216567",
+      "resolution_time": "2025-11-04T01:50:25.216567",
+      "alert": {
+        "type": "Crypto Operations Failed",
+        "message": "Routine system alert from key vault-eastus-313",
+        "metric_name": "ServiceApiLatency",
+        "metric_value": 81.27,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "Secret Get",
+        "source_ip": "8.46.248.235",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "57180bd7-c764-45b1-851e-2146f5cb4075",
+        "resource_group": "rg-key vault-eastus"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.216628",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        },
+        {
+          "timestamp": "2025-11-04T01:24:49.216631",
+          "action": "Investigation Started",
+          "actor": "Security Team",
+          "details": "Investigating system incident in Key Vault"
+        },
+        {
+          "timestamp": "2025-11-04T01:49:49.216635",
+          "action": "Resolution",
+          "actor": "System Admin",
+          "details": "Incident resolved - Normal operation restored"
+        }
+      ]
+    },
+    {
+      "incident_id": "89871bb3-e034-4244-a605-b932265eefd5",
+      "correlation_id": "b13c91f93079",
+      "resource_id": "/subscriptions/a66ae7e8-05cc-4cb7-80aa-eed5170e4b9c/resourceGroups/rg-key vault-eastus/providers/Microsoft.KeyVault/vaults/key vault-eastus-399",
+      "service": "Key Vault",
+      "region": "eastus",
+      "category": "Security",
+      "severity": "low",
+      "status": "Resolved",
+      "detected_time": "2025-11-04T00:41:48.216647",
+      "resolution_time": "2025-11-04T03:17:48.216647",
+      "alert": {
+        "type": "Access Denied",
+        "message": "New IP address accessing key vault-eastus-399",
+        "metric_name": "AvailabilityResults",
+        "metric_value": 93.18,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "Certificate Get",
+        "source_ip": "232.0.20.187",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "a66ae7e8-05cc-4cb7-80aa-eed5170e4b9c",
+        "resource_group": "rg-key vault-eastus"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.216701",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        },
+        {
+          "timestamp": "2025-11-04T01:24:49.216704",
+          "action": "Investigation Started",
+          "actor": "Security Team",
+          "details": "Investigating security incident in Key Vault"
+        },
+        {
+          "timestamp": "2025-11-04T01:49:49.216708",
+          "action": "Resolution",
+          "actor": "System Admin",
+          "details": "Incident resolved - Normal operation restored"
+        }
+      ]
+    },
+    {
+      "incident_id": "9fd77b4c-5356-4701-a820-30ed82f94dda",
+      "correlation_id": "351757df0ee9",
+      "resource_id": "/subscriptions/01355bb9-fd4a-4d04-a014-029b22ddb602/resourceGroups/rg-key vault-westeurope/providers/Microsoft.KeyVault/vaults/key vault-westeurope-355",
+      "service": "Key Vault",
+      "region": "westeurope",
+      "category": "Performance",
+      "severity": "low",
+      "status": "Resolved",
+      "detected_time": "2025-11-04T00:59:59.216719",
+      "resolution_time": "2025-11-04T02:25:59.216719",
+      "alert": {
+        "type": "Crypto Operations Failed",
+        "message": "Routine maintenance impact on key vault-westeurope-355",
+        "metric_name": "SaturationShoebox",
+        "metric_value": 85.79,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "Key Verify",
+        "source_ip": "64.60.59.250",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "01355bb9-fd4a-4d04-a014-029b22ddb602",
+        "resource_group": "rg-key vault-westeurope"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.216770",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        },
+        {
+          "timestamp": "2025-11-04T01:24:49.216772",
+          "action": "Investigation Started",
+          "actor": "Security Team",
+          "details": "Investigating performance incident in Key Vault"
+        },
+        {
+          "timestamp": "2025-11-04T01:49:49.216776",
+          "action": "Resolution",
+          "actor": "System Admin",
+          "details": "Incident resolved - Normal operation restored"
+        }
+      ]
+    },
+    {
+      "incident_id": "95331679-76e1-4bad-bab4-8f3e46e38fa1",
+      "correlation_id": "571d343684b8",
+      "resource_id": "/subscriptions/66050b55-eee1-4260-b4b6-5c38e1b16f0b/resourceGroups/rg-app service-eastus/providers/Microsoft.AppService/vaults/app service-eastus-542",
+      "service": "App Service",
+      "region": "eastus",
+      "category": "System",
+      "severity": "medium",
+      "status": "Active",
+      "detected_time": "2025-11-04T01:13:17.216787",
+      "resolution_time": null,
+      "alert": {
+        "type": "SSL Certificate Expiry",
+        "message": "Backup delay detected for app service-eastus-542",
+        "metric_name": "Http5xx",
+        "metric_value": 92.86,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "WebSocket",
+        "source_ip": "8.157.142.114",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "66050b55-eee1-4260-b4b6-5c38e1b16f0b",
+        "resource_group": "rg-app service-eastus"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.216833",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        }
+      ]
+    },
+    {
+      "incident_id": "6e3fe672-0c18-486a-89d0-e2b4f0c203d4",
+      "correlation_id": "23fbc1d9ec7a",
+      "resource_id": "/subscriptions/1ad30f2d-6503-4d7d-9e8e-fc64974f48e1/resourceGroups/rg-sql database-westus2/providers/Microsoft.SQLDatabase/vaults/sql database-westus2-486",
+      "service": "SQL Database",
+      "region": "westus2",
+      "category": "Security",
+      "severity": "low",
+      "status": "Resolved",
+      "detected_time": "2025-11-04T00:37:37.216843",
+      "resolution_time": "2025-11-04T01:23:37.216843",
+      "alert": {
+        "type": "High CPU Usage",
+        "message": "Routine security scan alerts for sql database-westus2-486",
+        "metric_name": "cpu_percent",
+        "metric_value": 81.5,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "Database CRUD",
+        "source_ip": "119.22.142.214",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "1ad30f2d-6503-4d7d-9e8e-fc64974f48e1",
+        "resource_group": "rg-sql database-westus2"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.216893",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        },
+        {
+          "timestamp": "2025-11-04T01:24:49.216895",
+          "action": "Investigation Started",
+          "actor": "Security Team",
+          "details": "Investigating security incident in SQL Database"
+        },
+        {
+          "timestamp": "2025-11-04T01:49:49.216900",
+          "action": "Resolution",
+          "actor": "System Admin",
+          "details": "Incident resolved - Normal operation restored"
+        }
+      ]
+    },
+    {
+      "incident_id": "2da4f660-eb88-4bf8-8d4c-ab1c543bf56e",
+      "correlation_id": "ac2593dba3a3",
+      "resource_id": "/subscriptions/7363ad29-79f4-430e-9a23-681b8d95414b/resourceGroups/rg-app service-centralus/providers/Microsoft.AppService/vaults/app service-centralus-543",
+      "service": "App Service",
+      "region": "centralus",
+      "category": "Performance",
+      "severity": "low",
+      "status": "Resolved",
+      "detected_time": "2025-11-04T00:57:26.216915",
+      "resolution_time": "2025-11-04T02:10:26.216915",
+      "alert": {
+        "type": "SSL Certificate Expiry",
+        "message": "Routine maintenance impact on app service-centralus-543",
+        "metric_name": "Http5xx",
+        "metric_value": 89.56,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "WebSocket",
+        "source_ip": "68.201.237.60",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "7363ad29-79f4-430e-9a23-681b8d95414b",
+        "resource_group": "rg-app service-centralus"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.216967",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        },
+        {
+          "timestamp": "2025-11-04T01:24:49.216969",
+          "action": "Investigation Started",
+          "actor": "Security Team",
+          "details": "Investigating performance incident in App Service"
+        },
+        {
+          "timestamp": "2025-11-04T01:49:49.216974",
+          "action": "Resolution",
+          "actor": "System Admin",
+          "details": "Incident resolved - Normal operation restored"
+        }
+      ]
+    },
+    {
+      "incident_id": "3a9bb95e-46e3-4526-8355-0af70e002820",
+      "correlation_id": "fab5fb213de4",
+      "resource_id": "/subscriptions/cd605af3-d843-43d6-9eaa-059e042e85d5/resourceGroups/rg-key vault-eastus/providers/Microsoft.KeyVault/vaults/key vault-eastus-550",
+      "service": "Key Vault",
+      "region": "eastus",
+      "category": "Security",
+      "severity": "low",
+      "status": "Resolved",
+      "detected_time": "2025-11-04T01:14:02.216985",
+      "resolution_time": "2025-11-04T04:02:02.216985",
+      "alert": {
+        "type": "Access Denied",
+        "message": "New IP address accessing key vault-eastus-550",
+        "metric_name": "ServiceApiLatency",
+        "metric_value": 51.46,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "Secret Get",
+        "source_ip": "151.10.216.27",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "cd605af3-d843-43d6-9eaa-059e042e85d5",
+        "resource_group": "rg-key vault-eastus"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.217035",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        },
+        {
+          "timestamp": "2025-11-04T01:24:49.217038",
+          "action": "Investigation Started",
+          "actor": "Security Team",
+          "details": "Investigating security incident in Key Vault"
+        },
+        {
+          "timestamp": "2025-11-04T01:49:49.217042",
+          "action": "Resolution",
+          "actor": "System Admin",
+          "details": "Incident resolved - Normal operation restored"
+        }
+      ]
+    },
+    {
+      "incident_id": "c9439233-e963-43ea-8602-42507754e269",
+      "correlation_id": "10488ed77a9b",
+      "resource_id": "/subscriptions/359d3a66-d173-4c53-ace0-609b05d9339e/resourceGroups/rg-sql database-westeurope/providers/Microsoft.SQLDatabase/vaults/sql database-westeurope-982",
+      "service": "SQL Database",
+      "region": "westeurope",
+      "category": "Security",
+      "severity": "medium",
+      "status": "Resolved",
+      "detected_time": "2025-11-04T00:39:40.217056",
+      "resolution_time": "2025-11-04T00:46:40.217056",
+      "alert": {
+        "type": "Deadlock Detected",
+        "message": "Unusual access pattern detected in sql database-westeurope-982",
+        "metric_name": "dtu_consumption_percent",
+        "metric_value": 55.8,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "Scale",
+        "source_ip": "100.250.91.84",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "359d3a66-d173-4c53-ace0-609b05d9339e",
+        "resource_group": "rg-sql database-westeurope"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.217113",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        },
+        {
+          "timestamp": "2025-11-04T01:24:49.217116",
+          "action": "Investigation Started",
+          "actor": "Security Team",
+          "details": "Investigating security incident in SQL Database"
+        },
+        {
+          "timestamp": "2025-11-04T01:49:49.217124",
+          "action": "Resolution",
+          "actor": "System Admin",
+          "details": "Incident resolved - Normal operation restored"
+        }
+      ]
+    },
+    {
+      "incident_id": "eca814dd-f64f-4f4a-8f7a-5eb7695c7bc3",
+      "correlation_id": "99a1a61e6933",
+      "resource_id": "/subscriptions/3b99b6ca-04e4-4282-9c5b-fbb15d434425/resourceGroups/rg-app service-eastus/providers/Microsoft.AppService/vaults/app service-eastus-095",
+      "service": "App Service",
+      "region": "eastus",
+      "category": "Security",
+      "severity": "medium",
+      "status": "Active",
+      "detected_time": "2025-11-04T00:30:38.217139",
+      "resolution_time": null,
+      "alert": {
+        "type": "HTTP Server Errors",
+        "message": "Service principal credentials expiring for app service-eastus-095",
+        "metric_name": "Http5xx",
+        "metric_value": 92.34,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "Custom Domain SSL",
+        "source_ip": "44.70.29.29",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "3b99b6ca-04e4-4282-9c5b-fbb15d434425",
+        "resource_group": "rg-app service-eastus"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.217188",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        }
+      ]
+    },
+    {
+      "incident_id": "277eebc0-1738-4d90-ad60-cae282b7408f",
+      "correlation_id": "2c0b96a6f877",
+      "resource_id": "/subscriptions/bf291ad5-bd8b-4263-a16e-92df56c1bd53/resourceGroups/rg-app service-eastus/providers/Microsoft.AppService/vaults/app service-eastus-212",
+      "service": "App Service",
+      "region": "eastus",
+      "category": "Performance",
+      "severity": "medium",
+      "status": "Resolved",
+      "detected_time": "2025-11-04T01:03:07.217198",
+      "resolution_time": "2025-11-04T03:11:07.217198",
+      "alert": {
+        "type": "High Memory Usage",
+        "message": "Memory pressure detected in app service-eastus-212",
+        "metric_name": "ResponseTime",
+        "metric_value": 84.54,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "WebSocket",
+        "source_ip": "83.236.19.155",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "bf291ad5-bd8b-4263-a16e-92df56c1bd53",
+        "resource_group": "rg-app service-eastus"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.217248",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        },
+        {
+          "timestamp": "2025-11-04T01:24:49.217250",
+          "action": "Investigation Started",
+          "actor": "Security Team",
+          "details": "Investigating performance incident in App Service"
+        },
+        {
+          "timestamp": "2025-11-04T01:49:49.217254",
+          "action": "Resolution",
+          "actor": "System Admin",
+          "details": "Incident resolved - Normal operation restored"
+        }
+      ]
+    },
+    {
+      "incident_id": "a1673a24-fc37-48e2-a9a0-1f926fed7734",
+      "correlation_id": "5248e6360c02",
+      "resource_id": "/subscriptions/c9547502-d89a-4136-b3ff-7f0006ada149/resourceGroups/rg-sql database-southeastasia/providers/Microsoft.SQLDatabase/vaults/sql database-southeastasia-882",
+      "service": "SQL Database",
+      "region": "southeastasia",
+      "category": "Performance",
+      "severity": "high",
+      "status": "Resolved",
+      "detected_time": "2025-11-04T00:21:10.217265",
+      "resolution_time": "2025-11-04T01:04:10.217265",
+      "alert": {
+        "type": "Storage Space Low",
+        "message": "Service unavailable - sql database-southeastasia-882",
+        "metric_name": "deadlock",
+        "metric_value": 79.22,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "Scale",
+        "source_ip": "185.23.198.135",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "c9547502-d89a-4136-b3ff-7f0006ada149",
+        "resource_group": "rg-sql database-southeastasia"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.217314",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        },
+        {
+          "timestamp": "2025-11-04T01:24:49.217316",
+          "action": "Investigation Started",
+          "actor": "Security Team",
+          "details": "Investigating performance incident in SQL Database"
+        },
+        {
+          "timestamp": "2025-11-04T01:49:49.217321",
+          "action": "Resolution",
+          "actor": "System Admin",
+          "details": "Incident resolved - Normal operation restored"
+        }
+      ]
+    },
+    {
+      "incident_id": "9ce6fbd0-2425-4156-b32d-95eafdba2f18",
+      "correlation_id": "f8561ec69470",
+      "resource_id": "/subscriptions/bb5a419a-a20a-4342-8171-d175ba85cc30/resourceGroups/rg-sql database-westeurope/providers/Microsoft.SQLDatabase/vaults/sql database-westeurope-273",
+      "service": "SQL Database",
+      "region": "westeurope",
+      "category": "System",
+      "severity": "low",
+      "status": "Resolved",
+      "detected_time": "2025-11-04T00:27:06.217333",
+      "resolution_time": "2025-11-04T01:15:06.217333",
+      "alert": {
+        "type": "Backup Failed",
+        "message": "Routine system alert from sql database-westeurope-273",
+        "metric_name": "deadlock",
+        "metric_value": 54.73,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "Database CRUD",
+        "source_ip": "204.129.38.74",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "bb5a419a-a20a-4342-8171-d175ba85cc30",
+        "resource_group": "rg-sql database-westeurope"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.217382",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        },
+        {
+          "timestamp": "2025-11-04T01:24:49.217385",
+          "action": "Investigation Started",
+          "actor": "Security Team",
+          "details": "Investigating system incident in SQL Database"
+        },
+        {
+          "timestamp": "2025-11-04T01:49:49.217389",
+          "action": "Resolution",
+          "actor": "System Admin",
+          "details": "Incident resolved - Normal operation restored"
+        }
+      ]
+    },
+    {
+      "incident_id": "5ea3a3f0-c5e2-4cb4-9b14-47bbb39d7172",
+      "correlation_id": "40ee671db381",
+      "resource_id": "/subscriptions/76aa5e57-f7aa-4b49-a2d8-971e994ea781/resourceGroups/rg-key vault-westeurope/providers/Microsoft.KeyVault/vaults/key vault-westeurope-398",
+      "service": "Key Vault",
+      "region": "westeurope",
+      "category": "Security",
+      "severity": "medium",
+      "status": "Resolved",
+      "detected_time": "2025-11-04T01:00:47.217399",
+      "resolution_time": "2025-11-04T01:13:47.217399",
+      "alert": {
+        "type": "Access Denied",
+        "message": "SSL certificate expiring soon for key vault-westeurope-398",
+        "metric_name": "AvailabilityResults",
+        "metric_value": 92.4,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "Key Verify",
+        "source_ip": "156.73.154.212",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "76aa5e57-f7aa-4b49-a2d8-971e994ea781",
+        "resource_group": "rg-key vault-westeurope"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.217447",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        },
+        {
+          "timestamp": "2025-11-04T01:24:49.217449",
+          "action": "Investigation Started",
+          "actor": "Security Team",
+          "details": "Investigating security incident in Key Vault"
+        },
+        {
+          "timestamp": "2025-11-04T01:49:49.217454",
+          "action": "Resolution",
+          "actor": "System Admin",
+          "details": "Incident resolved - Normal operation restored"
+        }
+      ]
+    },
+    {
+      "incident_id": "e8708070-ce66-49da-8733-70413e4be03f",
+      "correlation_id": "45cff1c2f1be",
+      "resource_id": "/subscriptions/a31a2690-a459-4d58-a3be-051e9d51b9a4/resourceGroups/rg-key vault-southeastasia/providers/Microsoft.KeyVault/vaults/key vault-southeastasia-056",
+      "service": "Key Vault",
+      "region": "southeastasia",
+      "category": "Security",
+      "severity": "medium",
+      "status": "Active",
+      "detected_time": "2025-11-04T00:43:27.217464",
+      "resolution_time": null,
+      "alert": {
+        "type": "Crypto Operations Failed",
+        "message": "Unusual access pattern detected in key vault-southeastasia-056",
+        "metric_name": "Authentication",
+        "metric_value": 92.6,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "Secret Get",
+        "source_ip": "171.150.140.240",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "a31a2690-a459-4d58-a3be-051e9d51b9a4",
+        "resource_group": "rg-key vault-southeastasia"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.217517",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        }
+      ]
+    },
+    {
+      "incident_id": "f5569fd0-5de7-4e2d-9e09-79b9d06c2f10",
+      "correlation_id": "e475194672f5",
+      "resource_id": "/subscriptions/67da3fc3-a5b6-497f-8f7b-4afb3eb9fddb/resourceGroups/rg-app service-eastus/providers/Microsoft.AppService/vaults/app service-eastus-403",
+      "service": "App Service",
+      "region": "eastus",
+      "category": "Security",
+      "severity": "high",
+      "status": "Resolved",
+      "detected_time": "2025-11-04T00:41:49.217526",
+      "resolution_time": "2025-11-04T01:22:49.217526",
+      "alert": {
+        "type": "High Memory Usage",
+        "message": "Unauthorized access attempt detected from IP 47.89.49.180",
+        "metric_name": "MemoryWorkingSet",
+        "metric_value": 56.14,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "WebSocket",
+        "source_ip": "8.97.253.229",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "67da3fc3-a5b6-497f-8f7b-4afb3eb9fddb",
+        "resource_group": "rg-app service-eastus"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.217578",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        },
+        {
+          "timestamp": "2025-11-04T01:24:49.217581",
+          "action": "Investigation Started",
+          "actor": "Security Team",
+          "details": "Investigating security incident in App Service"
+        },
+        {
+          "timestamp": "2025-11-04T01:49:49.217585",
+          "action": "Resolution",
+          "actor": "System Admin",
+          "details": "Incident resolved - Normal operation restored"
+        }
+      ]
+    },
+    {
+      "incident_id": "27435d2a-4545-4c15-85d0-7df646c5fb2a",
+      "correlation_id": "cb9cf87e95e9",
+      "resource_id": "/subscriptions/3c58dacc-d2e2-4497-854d-9ba2fbb07bcb/resourceGroups/rg-sql database-westeurope/providers/Microsoft.SQLDatabase/vaults/sql database-westeurope-269",
+      "service": "SQL Database",
+      "region": "westeurope",
+      "category": "Performance",
+      "severity": "high",
+      "status": "Active",
+      "detected_time": "2025-11-04T00:57:45.217595",
+      "resolution_time": null,
+      "alert": {
+        "type": "High CPU Usage",
+        "message": "Critical performance degradation in sql database-westeurope-269",
+        "metric_name": "deadlock",
+        "metric_value": 96.08,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "Scale",
+        "source_ip": "158.50.185.251",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "3c58dacc-d2e2-4497-854d-9ba2fbb07bcb",
+        "resource_group": "rg-sql database-westeurope"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.217641",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        }
+      ]
+    },
+    {
+      "incident_id": "ec19027e-ad7c-4b62-a5d1-52aef4a81263",
+      "correlation_id": "cb10c24895fa",
+      "resource_id": "/subscriptions/fdcce1e4-579d-429a-a8b0-1a38bda227e6/resourceGroups/rg-sql database-eastus/providers/Microsoft.SQLDatabase/vaults/sql database-eastus-314",
+      "service": "SQL Database",
+      "region": "eastus",
+      "category": "System",
+      "severity": "low",
+      "status": "Resolved",
+      "detected_time": "2025-11-04T00:29:33.217661",
+      "resolution_time": "2025-11-04T01:14:33.217661",
+      "alert": {
+        "type": "High CPU Usage",
+        "message": "System notification from sql database-eastus-314",
+        "metric_name": "cpu_percent",
+        "metric_value": 76.17,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "Backup",
+        "source_ip": "137.109.147.187",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "fdcce1e4-579d-429a-a8b0-1a38bda227e6",
+        "resource_group": "rg-sql database-eastus"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.217711",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        },
+        {
+          "timestamp": "2025-11-04T01:24:49.217713",
+          "action": "Investigation Started",
+          "actor": "Security Team",
+          "details": "Investigating system incident in SQL Database"
+        },
+        {
+          "timestamp": "2025-11-04T01:49:49.217721",
+          "action": "Resolution",
+          "actor": "System Admin",
+          "details": "Incident resolved - Normal operation restored"
+        }
+      ]
+    },
+    {
+      "incident_id": "83d6066f-af31-4b0d-9d9c-5f13c86471d6",
+      "correlation_id": "289f66e1b3aa",
+      "resource_id": "/subscriptions/f48a5375-2e0e-4bca-91ae-9086e377c2cc/resourceGroups/rg-sql database-westus2/providers/Microsoft.SQLDatabase/vaults/sql database-westus2-071",
+      "service": "SQL Database",
+      "region": "westus2",
+      "category": "Performance",
+      "severity": "low",
+      "status": "Active",
+      "detected_time": "2025-11-04T00:45:13.217731",
+      "resolution_time": null,
+      "alert": {
+        "type": "Deadlock Detected",
+        "message": "Routine maintenance impact on sql database-westus2-071",
+        "metric_name": "dtu_consumption_percent",
+        "metric_value": 59.83,
+        "threshold": 95.0
+      },
+      "metadata": {
+        "operation": "Backup",
+        "source_ip": "56.44.196.114",
+        "user_agent": "Azure-Security-Center/1.0",
+        "subscription_id": "f48a5375-2e0e-4bca-91ae-9086e377c2cc",
+        "resource_group": "rg-sql database-westus2"
+      },
+      "actions_taken": [
+        {
+          "timestamp": "2025-11-04T01:19:49.217776",
+          "action": "Alert Generated",
+          "actor": "Azure Monitor",
+          "details": "Incident detected and logged"
+        }
+      ]
+    }
+  ]
+}

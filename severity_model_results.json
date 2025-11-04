@@ -1,0 +1,10 @@
+{
+  "accuracy": 1.0,
+  "weights": {
+    "bert_weight": -42.40998326989009,
+    "rule_weight": 0.6392596162191154,
+    "env_weight": 0.0,
+    "intercept": 84.46650477826527
+  },
+  "timestamp": "2025-11-04"
+}
